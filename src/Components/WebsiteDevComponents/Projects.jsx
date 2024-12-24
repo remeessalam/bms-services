@@ -7,6 +7,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-0">
           {projects.map((project, index) => (
             <div
+              data-aos="fade-up"
               key={index}
               className={`group relative ${
                 index % 2 === 0 ? "md:pr-8" : "md:pl-8 md:pt-40"

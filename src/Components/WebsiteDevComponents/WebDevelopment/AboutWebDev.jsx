@@ -55,12 +55,14 @@ const AboutWebDev = () => {
     <div className="min-h-screen bg-black text-white p-6 md:p-12">
       <div className="wrapper">
         <div className="mb-16">
-          <h1 className="section-heading">Web Development Application</h1>
+          <h1 className="section-heading" data-aos="fade-up">
+            Web Development Application
+          </h1>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-16">
           {Info.map((item, index) => (
-            <div key={index}>
+            <div key={index} data-aos="fade-up">
               <h2 className="text-gray-400 mb-2">{item.title}</h2>
               <p className="font-medium">{item.content}</p>
             </div>
@@ -69,10 +71,12 @@ const AboutWebDev = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div>
-            <h2 className="text-2xl font-bold mb-4">About the Project</h2>
+            <h2 className="text-2xl font-bold mb-4 " data-aos="fade-right">
+              About the Project
+            </h2>
           </div>
           <div className="md:col-span-2">
-            <p className="desc !text-white">
+            <p className="desc !text-white" data-aos="fade-left">
               Develop a responsive web application that simplifies personal
               loans with a user-friendly interface. Enable quick loan approvals,
               secure transactions, and transparent processes to build trust.
@@ -81,12 +85,16 @@ const AboutWebDev = () => {
               ensure a reliable and efficient user experience.
             </p>
             <div>
-              <h2 className="text-2xl font-bold my-8">
+              <h2 className="text-2xl font-bold my-8" data-aos="fade-left">
                 Why Choose Our Web Development Solution?
               </h2>
               <ul className="space-y-6 max-w-3xl">
                 {WhyChoose.map((feature, index) => (
-                  <li key={index} className="flex flex-col">
+                  <li
+                    key={index}
+                    className="flex flex-col"
+                    data-aos="fade-left"
+                  >
                     <span className="font-semibold text-xl mb-2">
                       {feature.title}
                     </span>
