@@ -32,7 +32,11 @@ import fslider5 from "./assets/websitedevelopment/images/sliderone/fslider5.jpeg
 import fslider6 from "./assets/websitedevelopment/images/sliderone/fslider6.jpeg";
 import fslider7 from "./assets/websitedevelopment/images/sliderone/fslider7.jpeg";
 import fslider8 from "./assets/websitedevelopment/images/sliderone/fslider8.jpeg";
+
+// company logo
+import logo from "./assets/logo/logo.png";
 //services
+export { logo };
 export const services = [
   {
     id: 1,

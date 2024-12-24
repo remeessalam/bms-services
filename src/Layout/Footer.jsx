@@ -1,5 +1,6 @@
 import { Facebook, Dribbble, Linkedin, Instagram, Send } from "lucide-react";
 import { Link } from "react-router-dom";
+import { logo } from "../constant";
 const Footer = () => {
   return (
     <footer className="relative bg-black text-white py-16  border-t border-slate-400">
@@ -7,14 +8,7 @@ const Footer = () => {
       <div className="wrapper">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <div className="text-2xl font-bold flex items-center">
-              <span className="flex items-center">
-                B<span className="inline-block rotate-90">⚙</span>
-                <span>ST</span>
-              </span>
-              <span className="text-primary ml-1">MY</span>
-              SITES
-            </div>
+            <img src={logo} alt="logo" className="h-[5rem] object-contain" />
           </div>
 
           <div>

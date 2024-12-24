@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import { logo } from "../constant";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,14 +21,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to={"#"} className="flex items-center space-x-2">
-              <div className="text-2xl font-bold flex items-center">
-                <span className="flex items-center">
-                  B<span className="inline-block rotate-90">⚙</span>
-                  <span>ST</span>
-                </span>
-                <span className="text-[#ff9934] ml-1">MY</span>
-                SITES
-              </div>
+              <img
+                src={logo}
+                alt="logo"
+                className="h-[4rem] md:h-[5rem] object-contain"
+              />
             </Link>
           </div>
 
