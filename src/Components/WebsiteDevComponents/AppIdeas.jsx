@@ -7,7 +7,7 @@ const AppIdeas = () => {
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-8">
             <h2 className="heading text-black" data-aos="fade-right">
-              Got an App Idea?
+              Got an Website idea?
               <br /> We&apos;ve Got the Design and Development Skills.
             </h2>
 
