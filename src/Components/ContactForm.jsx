@@ -33,10 +33,10 @@ const ContactForm = ({ title }) => {
 
   return (
     <div
-      className="relative min-h-screen bg-[#b5c0c9] flex -z-20 items-center justify-center padding-between "
+      className="relative min-h-screen bg-[#b5c0c9] flex  items-center justify-center padding-between "
       //   style={{ backgroundImage: `url(${contactbanner})` }}
     >
-      <div className="absolute left-0 bottom-0 -z-10 w-96 h-96">
+      <div className="absolute left-0 bottom-0 z-0 w-96 h-96">
         <img src={contactbanner} alt="" className="w-96 h-96" />
       </div>
       <div className="wrapper grid lg:grid-cols-3 gap-8 items-center">
@@ -57,7 +57,7 @@ const ContactForm = ({ title }) => {
         </div>
 
         <div
-          className="bg-white lg:col-span-2 rounded-lg p-8 shadow-lg"
+          className="bg-white lg:col-span-2 rounded-lg p-8 shadow-lg "
           data-aos="fade-left"
         >
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
