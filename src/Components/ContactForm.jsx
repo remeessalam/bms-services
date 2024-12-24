@@ -45,7 +45,10 @@ const ContactForm = ({ title }) => {
             title === `Have a Project Idea?` ? `text-black` : `text-white`
           }`}
         >
-          <h1 className="text-6xl font-bold leading-tight">
+          <h1
+            className="text-6xl font-bold leading-tight"
+            data-aos="fade-right"
+          >
             {title}
             {/* Let&apos;s
             <br />
@@ -53,7 +56,10 @@ const ContactForm = ({ title }) => {
           </h1>
         </div>
 
-        <div className="bg-white lg:col-span-2 rounded-lg p-8 shadow-lg">
+        <div
+          className="bg-white lg:col-span-2 rounded-lg p-8 shadow-lg"
+          data-aos="fade-left"
+        >
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             <div>
               <label className="block text-sm font-medium mb-1">

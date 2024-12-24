@@ -8,11 +8,17 @@ const FAQ = () => {
   return (
     <section className="padding-between">
       <div className="wrapper">
-        <h2 className="section-heading">Frequently Asked Question</h2>
+        <h2 className="section-heading" data-aos="fade-up">
+          Frequently Asked Question
+        </h2>
 
         <div className="max-w-3xl mx-auto space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="border-b border-gray-200 last:border-0">
+            <div
+              key={index}
+              className="border-b border-gray-200 last:border-0"
+              data-aos="fade-up"
+            >
               <button
                 onClick={() =>
                   setActiveIndex(activeIndex === index ? -1 : index)

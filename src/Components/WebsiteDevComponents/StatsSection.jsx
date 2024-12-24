@@ -9,14 +9,17 @@ const StatsSection = () => {
       <div />
       <div className="wrapper">
         {/* Heading */}
-        <h2 className="text-center text-white section-heading">
+        <h2
+          className="text-center text-white section-heading"
+          data-aos="fade-up"
+        >
           Numbers that define our Website <br /> Design capabilities!
         </h2>
 
         {/* Stats Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Growth Stats - Pink Card */}
-          <div className="bg-pink-200 p-8 rounded-lg">
+          <div className="bg-pink-200 p-8 rounded-lg" data-aos="fade-right">
             <div className="text-5xl md:text-6xl font-bold mb-4">17%</div>
             <p className="desc">
               Growth Seen in the Client Engagement And Insights
@@ -24,13 +27,16 @@ const StatsSection = () => {
           </div>
 
           {/* Happy Clients - Yellow Card */}
-          <div className="bg-[#c5d42c] p-8 rounded-lg">
+          <div className="bg-[#c5d42c] p-8 rounded-lg" data-aos="fade-left">
             <div className="text-5xl md:text-6xl font-bold mb-4">6k+</div>
             <p className="desc">Happy Clients</p>
           </div>
 
           {/* Conversion Stats - Green Card */}
-          <div className="bg-green-500 p-8 rounded-lg text-white">
+          <div
+            className="bg-green-500 p-8 rounded-lg text-white"
+            data-aos="fade-right"
+          >
             <div className="text-5xl md:text-6xl font-bold mb-4">+31%</div>
             <p className="desc !text-white">
               client conversion increased after giving a design upgrade!
@@ -38,7 +44,10 @@ const StatsSection = () => {
           </div>
 
           {/* Real Estate Card */}
-          <div className="relative rounded-lg overflow-hidden">
+          <div
+            className="relative rounded-lg overflow-hidden"
+            data-aos="fade-left"
+          >
             <img
               src={statsfour}
               alt="statsfour"

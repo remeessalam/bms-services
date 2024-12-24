@@ -62,11 +62,11 @@ const WorkSlider = () => {
   return (
     <div className="bg-gray-100 padding-between">
       <div>
-        <h2 className="section-heading">
+        <h2 className="section-heading" data-aos="fade-up">
           Some works that exceed our client&apos;s expectations!
         </h2>
 
-        <div className="mb-12">
+        <div className="mb-12" data-aos="fade-up">
           <div ref={sliderRef} className="keen-slider overflow-hidden">
             {sliderone.map((item) => (
               <div
@@ -88,7 +88,11 @@ const WorkSlider = () => {
         </div>
 
         <div>
-          <div ref={sliderRef2} className="keen-slider overflow-hidden">
+          <div
+            ref={sliderRef2}
+            className="keen-slider overflow-hidden"
+            data-aos="fade-up"
+          >
             {sliderone.map((item) => (
               <div
                 key={item.id}

@@ -9,13 +9,17 @@ const FreeQuote = () => {
         <div className="relative group">
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
             <img
+              data-aos="fade-right"
               src={freequoteimage}
               alt="freequoteimage"
               className="w-full h-full object-cover"
             />
             {/* Play Button Overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <button className="bg-yellow-300 rounded-full p-6 transform transition-transform duration-200 hover:scale-110">
+              <button
+                data-aos="fade-right"
+                className="bg-yellow-300 rounded-full p-6 transform transition-transform duration-200 hover:scale-110"
+              >
                 <Play className="w-8 h-8 text-black" />
               </button>
             </div>
@@ -24,18 +28,18 @@ const FreeQuote = () => {
 
         {/* Right Column - Content */}
         <div className="space-y-8">
-          <h2 className="heading">
+          <h2 className="heading" data-aos="fade-left">
             Your website needs more than just speed and security.
           </h2>
 
-          <p className="desc">
+          <p className="desc" data-aos="fade-left">
             It needs to be a delightful user experience. With Boostmysites, we
             ensure your website is not only fast and secure but also intuitive
             and easy to navigate.
           </p>
 
           <div>
-            <Link to="#" className="primary-btn">
+            <Link to="#" className="primary-btn" data-aos="fade-left">
               Free Quotation
             </Link>
           </div>

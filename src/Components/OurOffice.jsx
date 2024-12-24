@@ -4,12 +4,15 @@ const OurOffices = () => {
   return (
     <section className="bg-black text-white padding-between">
       <div className="wrapper">
-        <h2 className="section-heading">OUR OFFICES</h2>
+        <h2 className="section-heading" data-aos="fade-up">
+          OUR OFFICES
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {offices.map((office, index) => (
             <div
               key={index}
+              data-aos="fade-up"
               className="group relative overflow-hidden rounded-3xl"
             >
               <div className="aspect-[4/3] overflow-hidden">

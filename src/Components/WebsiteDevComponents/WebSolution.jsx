@@ -4,7 +4,7 @@ const WebSolution = () => {
   return (
     <section className="bg-gray-50 py-16 md:py-24">
       <div className="wrapper">
-        <h2 className="section-heading">
+        <h2 className="section-heading" data-aos="fade-up">
           Website Development solutions
           <br />
           we offer!
@@ -14,6 +14,7 @@ const WebSolution = () => {
           {services.map((service) => (
             <div
               key={service.id}
+              data-aos="fade-up"
               className="flex flex-col md:flex-row gap-6 items-start"
             >
               <div className="w-full md:w-1/2">
