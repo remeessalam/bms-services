@@ -11,7 +11,7 @@ const AppLayout = () => {
     duration: 1000,
   });
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header />
       <ScrollToTop />
       <Outlet />
