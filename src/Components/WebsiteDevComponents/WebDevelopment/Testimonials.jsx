@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 import user1 from "../../../assets/websitedevelopment/images/user1.png";
 const Testimonial = () => {
   return (
-    <div className=" wrapper bg-[#FFFF00] padding-between flex items-center justify-center">
+    <div
+      className=" wrapper bg-[#FFFF00] padding-between flex items-center justify-center"
+      data-aos="fade-up"
+    >
       <div className="max-w-4xl">
         <div className="mb-12">
           <p className="text-2xl md:text-3xl lg:text-4xl font-bold leading-relaxed">

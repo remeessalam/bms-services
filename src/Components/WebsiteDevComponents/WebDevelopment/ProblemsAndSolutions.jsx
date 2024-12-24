@@ -4,8 +4,10 @@ const ProblemsAndSolutions = () => {
   return (
     <div className="wrapper padding-between">
       <div className=" grid md:grid-cols-3">
-        <h1 className="text-xl font-semibold">Problems</h1>
-        <p className="md:col-span-2">
+        <h1 className="text-xl font-semibold" data-aos="fade-right">
+          Problems
+        </h1>
+        <p className="md:col-span-2" data-aos="fade-left">
           In developing the web application, we tackled key challenges to ensure
           a seamless and reliable user experience. Performance optimization was
           a top priority, enabling fast loading times and smooth interactions.
@@ -19,8 +21,10 @@ const ProblemsAndSolutions = () => {
         </p>
       </div>
       <div className=" grid md:grid-cols-3 mt-16">
-        <h1 className="text-xl font-semibold">Our Solutions</h1>
-        <p className="md:col-span-2">
+        <h1 className="text-xl font-semibold" data-aos="fade-right">
+          Our Solutions
+        </h1>
+        <p className="md:col-span-2" data-aos="fade-left">
           With a focus on responsive design, secure systems, and seamless
           functionality, we aim to create platforms that prioritize user
           satisfaction. Whether it’s building intuitive interfaces, streamlining
@@ -29,11 +33,13 @@ const ProblemsAndSolutions = () => {
         </p>
       </div>
       <img
+        data-aos="fade-right"
         src={img1}
         alt="image-one"
         className="w-screen max-h-screen object-cover mt-16"
       />
       <img
+        data-aos="fade-left"
         src={img2}
         alt="image-one"
         className="w-screen max-h-screen object-cover mt-16"

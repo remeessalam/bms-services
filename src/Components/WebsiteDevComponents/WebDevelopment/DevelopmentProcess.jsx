@@ -31,7 +31,7 @@ const DevelopmentProcess = () => {
     <div className="relative bg-black pt-[15rem] pb-[10rem] -mt-[7rem] !-z-10">
       <div className="wrapper flex flex-col gap-16">
         {developmentProcess.map((obj, index) => (
-          <ol key={obj.title}>
+          <ol key={obj.title} data-aos="fade-up">
             <li>
               <h1 className="text-[#E4C9FC] text-lg font-semibold">
                 {index + 1}. {obj.title}

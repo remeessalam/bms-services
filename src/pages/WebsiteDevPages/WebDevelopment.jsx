@@ -27,17 +27,23 @@ const WebDevelopment = () => {
       </div>
       <div className="relative overflow-hidden padding-between h-[77vh] flex justify-center items-center">
         <div className="absolute left-0  top-0 -z-10">
-          <img src={impactbg} alt="impactbg" />
+          <img src={impactbg} alt="impactbg" data-aos="fade-right" />
         </div>
         <div className="padding-between">
-          <h1 className="text-black text-6xl sm:text-8xl font-bold text-center">
+          <h1
+            className="text-black text-6xl sm:text-8xl font-bold text-center"
+            data-aos="fade-up"
+          >
             Impact
             <br /> <span className="text-[#97979B]">We Created</span>
           </h1>
         </div>
       </div>
       <div className="bg-[#D6DCE1] padding-between">
-        <h1 className="text-black text-6xl sm:text-8xl font-bold text-start wrapper">
+        <h1
+          className="text-black text-6xl sm:text-8xl font-bold text-start wrapper"
+          data-aos="fade-up"
+        >
           Related
           <br />{" "}
           <span className="text-[#97979B] md:ml-[10rem] lg:ml-[20rem]">
