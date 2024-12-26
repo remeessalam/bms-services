@@ -1,19 +1,19 @@
-import { ArrowUpRight } from "lucide-react";
+// import { ArrowUpRight } from "lucide-react";
 const AboutWebDev = () => {
   const Info = [
-    { title: "CLIENT", content: "Nancy jhosep" },
+    // { title: "CLIENT", content: "Nancy jhosep" },
     { title: "CATEGORY", content: "Credit Loan" },
-    {
-      title: "LIVE VIEW",
-      content: (
-        <a
-          href="#"
-          className="font-medium flex items-center hover:text-blue-500 transition-colors"
-        >
-          Visit Website <ArrowUpRight className="ml-1 w-4 h-4" />
-        </a>
-      ),
-    },
+    // {
+    //   title: "LIVE VIEW",
+    //   content: (
+    //     <a
+    //       href="#"
+    //       className="font-medium flex items-center hover:text-blue-500 transition-colors"
+    //     >
+    //       Visit Website <ArrowUpRight className="ml-1 w-4 h-4" />
+    //     </a>
+    //   ),
+    // },
     { title: "TIMELINES", content: "3 Months" },
     {
       title: "SERVICE WE PROVIDED",
@@ -60,7 +60,7 @@ const AboutWebDev = () => {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 justify-items-center">
           {Info.map((item, index) => (
             <div key={index} data-aos="fade-up">
               <h2 className="text-gray-400 mb-2">{item.title}</h2>

@@ -33,13 +33,13 @@ const Testimonial = () => {
             </div>
           </div>
 
-          <Link
+          {/* <Link
             to="#"
             className="flex items-center text-black hover:opacity-75 transition-opacity font-medium"
           >
             View review on clutch
             <ArrowUpRight className="ml-1 w-5 h-5" />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
