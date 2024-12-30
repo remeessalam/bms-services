@@ -9,9 +9,12 @@ import impactbg from "../../assets/websitedevelopment/images/impactbgimg.png";
 import Projects from "../../Components/WebsiteDevComponents/Projects";
 import ContactForm from "../../Components/ContactForm";
 import OurOffices from "../../Components/OurOffice";
+import Footer from "../../Components/WebsiteDevComponents/Footer";
+import Header from "../../Components/WebsiteDevComponents/Header";
 const WebDevelopment = () => {
   return (
     <div>
+      <Header />
       <WebDevBanner />
       <AboutWebDev />
       <ProblemsAndSolutions />
@@ -54,6 +57,7 @@ const WebDevelopment = () => {
       <Projects />
       <ContactForm title={"Have a Project Idea?"} />
       <OurOffices />
+      <Footer />
     </div>
   );
 };

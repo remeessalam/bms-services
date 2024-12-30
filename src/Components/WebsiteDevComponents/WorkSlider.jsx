@@ -1,6 +1,6 @@
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import { sliderone } from "../../constant";
+import { sliderone } from "../../pages/WebsiteDevPages/constant";
 
 const animation = { duration: 25000, easing: (t) => t };
 

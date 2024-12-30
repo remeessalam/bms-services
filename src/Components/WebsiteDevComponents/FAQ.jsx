@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import { faqs } from "../../constant";
+import { faqs } from "../../pages/WebsiteDevPages/constant";
 
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(0);
