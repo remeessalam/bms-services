@@ -1,4 +1,4 @@
-import { offices } from "../constant";
+import { offices } from "../pages/WebsiteDevPages/constant";
 
 const OurOffices = () => {
   return (

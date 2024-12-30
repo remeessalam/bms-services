@@ -1,4 +1,4 @@
-import { services } from "../../constant";
+import { services } from "../../pages/WebsiteDevPages/constant";
 
 const WebSolution = () => {
   return (

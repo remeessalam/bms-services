@@ -7,6 +7,11 @@ const CaseStudy = lazy(() => import("./pages/WebsiteDevPages/CaseStudy"));
 const WebDevelopment = lazy(() =>
   import("./pages/WebsiteDevPages/WebDevelopment")
 );
+
+const AppDevHome = lazy(() => import("./pages/AppDevPages/AppDevHome"));
+const AppDevCaseStudy = lazy(() => import("./pages/AppDevPages/AppDevCaseStudy"));
+const AppWork = lazy(() => import("./pages/AppDevPages/AppWork"));
+
 const AppRouter = createBrowserRouter([
   {
     path: "/",
@@ -17,6 +22,7 @@ const AppRouter = createBrowserRouter([
     ),
 
     children: [
+      // routes for web development service website
       {
         path: "/",
         element: <HomePage />,
@@ -26,8 +32,22 @@ const AppRouter = createBrowserRouter([
         element: <CaseStudy />,
       },
       {
-        path: "/web-development",
+        path: "/work",
         element: <WebDevelopment />,
+      },
+
+      // routes for app development service website
+      {
+        path: "/app-development",
+        element: <AppDevHome />,
+      },
+      {
+        path: "/app-development/case-study",
+        element: <AppDevCaseStudy />,
+      },
+      {
+        path: "/app-development/work",
+        element: <AppWork />,
       },
     ],
   },

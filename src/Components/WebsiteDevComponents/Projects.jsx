@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import { projects } from "../../constant";
+import { projects } from "../../pages/WebsiteDevPages/constant";
 
 const Projects = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/web-development");
+    navigate("/work");
   };
   return (
     <div className="min-h-screen bg-black px-4 sm:px-6 lg:px-8 py-16">

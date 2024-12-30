@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
-import contactbanner from "../assets/websitedevelopment/images/contactbanner.png";
+import contactbanner from "../assets/appdevelopment/images/contactbanner.png";
+// eslint-disable-next-line react/prop-types
 const ContactForm = ({ title }) => {
   const {
     register,
