@@ -10,11 +10,11 @@ const VisualOutput = ({ visualouputimages }) => {
           <h1 className="text-xl font-semibold" data-aos="fade-right">
             Visual Output
           </h1>
-          <p className=" md:col-span-2" data-aos="fade-left">
+          {/* <p className=" md:col-span-2" data-aos="fade-left">
             Crio is your go-to app for quick and easy personal loans. Whether
             you&apos;re facing an unexpected expense or simply need some extra
             cash, Crio offers a hassle-free solution to your financial needs.
-          </p>
+          </p> */}
         </div>
         <div className="grid md:grid-cols-2 gap-8 mt-8">
           {visualouputimages.map((obj, i) => (
