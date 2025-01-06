@@ -34,7 +34,7 @@ import fslider7 from "../../assets/websitedevelopment/images/sliderone/fslider7.
 import fslider8 from "../../assets/websitedevelopment/images/sliderone/fslider8.jpeg";
 
 // company logo
-import logo from '../../assets/logo/logo.png'
+import logo from "../../assets/logo/logo.png";
 
 //services
 export { logo };

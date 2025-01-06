@@ -1,27 +1,21 @@
 // import { ArrowUpRight } from "lucide-react";
-const AboutWebDev = () => {
+const AboutWebDev = ({
+  heroSection,
+  titleSection,
+  aboutProject,
+  whyChooseUs,
+}) => {
   const Info = [
-    // { title: "CLIENT", content: "Nancy jhosep" },
-    { title: "CATEGORY", content: "Credit Loan" },
-    // {
-    //   title: "LIVE VIEW",
-    //   content: (
-    //     <a
-    //       href="#"
-    //       className="font-medium flex items-center hover:text-blue-500 transition-colors"
-    //     >
-    //       Visit Website <ArrowUpRight className="ml-1 w-4 h-4" />
-    //     </a>
-    //   ),
-    // },
-    { title: "TIMELINES", content: "3 Months" },
+    { title: "CATEGORY", content: titleSection.category },
+
+    { title: "TIMELINES", content: titleSection.timeline },
     {
       title: "SERVICE WE PROVIDED",
       content: (
         <ul className="space-y-1">
-          <li>• Framework</li>
-          <li>• UI Design</li>
-          <li>• Development</li>
+          {titleSection.servicesProvided.map((obj) => (
+            <li key={obj}>{obj}</li>
+          ))}
         </ul>
       ),
     },
@@ -56,7 +50,7 @@ const AboutWebDev = () => {
       <div className="wrapper">
         <div className="mb-16">
           <h1 className="section-heading" data-aos="fade-up">
-            Web Development Application
+            {heroSection.title}
           </h1>
         </div>
 
@@ -77,19 +71,19 @@ const AboutWebDev = () => {
           </div>
           <div className="md:col-span-2">
             <p className="desc !text-white" data-aos="fade-left">
-              Develop a responsive web application that simplifies personal
-              loans with a user-friendly interface. Enable quick loan approvals,
-              secure transactions, and transparent processes to build trust.
-              Design intuitive workflows for seamless navigation and effortless
-              application management. Prioritize security and scalability to
-              ensure a reliable and efficient user experience.
+              {aboutProject?.description}
             </p>
+            <ul className="mt-8 list-disc text-gray-200">
+              {aboutProject?.keyHighlights.map((obj, index) => (
+                <li key={index}>{obj}</li>
+              ))}
+            </ul>
             <div>
               <h2 className="text-2xl font-bold my-8" data-aos="fade-left">
                 Why Choose Our Web Development Solution?
               </h2>
               <ul className="space-y-6 max-w-3xl">
-                {WhyChoose.map((feature, index) => (
+                {whyChooseUs.map((feature, index) => (
                   <li
                     key={index}
                     className="flex flex-col"

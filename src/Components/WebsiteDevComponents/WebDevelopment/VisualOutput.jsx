@@ -2,7 +2,7 @@ import img1 from "../../../assets/websitedevelopment/images/visualoutimg1.png";
 import img2 from "../../../assets/websitedevelopment/images/visualoutimg2.png";
 import img3 from "../../../assets/websitedevelopment/images/visualoutimg3.png";
 import img4 from "../../../assets/websitedevelopment/images/visualoutimg4.png";
-const VisualOutput = () => {
+const VisualOutput = ({ visualouputimages }) => {
   return (
     <div className="bg-[#D6DCE1] padding-between">
       <div className="wrapper">
@@ -16,7 +16,18 @@ const VisualOutput = () => {
             cash, Crio offers a hassle-free solution to your financial needs.
           </p>
         </div>
-        <img
+        <div className="grid md:grid-cols-2 gap-8 mt-8">
+          {visualouputimages.map((obj, i) => (
+            <div data-aos="fade-up" key={i}>
+              <img
+                src={obj}
+                alt="visula-output-images"
+                className="max-h-[80vh] "
+              />
+            </div>
+          ))}
+        </div>
+        {/* <img
           data-aos="fade-up"
           src={img1}
           alt="image-one"
@@ -41,7 +52,7 @@ const VisualOutput = () => {
           src={img4}
           alt="image-four"
           className="w-full max-h-screen object-cover mt-16"
-        />
+        /> */}
       </div>
     </div>
   );

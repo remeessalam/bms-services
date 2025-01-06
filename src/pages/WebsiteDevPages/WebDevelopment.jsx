@@ -11,16 +11,38 @@ import ContactForm from "../../Components/ContactForm";
 import OurOffices from "../../Components/OurOffice";
 import Footer from "../../Components/WebsiteDevComponents/Footer";
 import Header from "../../Components/WebsiteDevComponents/Header";
+import { useParams } from "react-router-dom";
+import { webCaseStudies } from "../../caseStudies";
 const WebDevelopment = () => {
+  const { id } = useParams();
+
+  const { webcasestudy } = webCaseStudies[id];
+  const heroSection = webcasestudy[0];
+  const titleSection = webcasestudy[1];
+  const { aboutTheProject } = webcasestudy[2];
+  const { whyChooseUs } = webcasestudy[3];
+  const { problemsFaced, solutionsOffered } = webcasestudy[4];
+  const { review } = webcasestudy[5];
+  const { developmentProcess } = webcasestudy[6];
+  const { visualouputimages } = webcasestudy[7];
+  console.log(visualouputimages, id, "asdklfjsad");
   return (
     <div>
       <Header />
-      <WebDevBanner />
-      <AboutWebDev />
-      <ProblemsAndSolutions />
-      <Testimonial />
-      <DevelopmentProcess />
-      <VisualOutput />
+      <WebDevBanner heroSection={heroSection} />
+      <AboutWebDev
+        heroSection={heroSection}
+        titleSection={titleSection}
+        aboutProject={aboutTheProject}
+        whyChooseUs={whyChooseUs}
+      />
+      <ProblemsAndSolutions
+        problemsFaced={problemsFaced}
+        solutionsOffered={solutionsOffered}
+      />
+      <Testimonial review={review} />
+      <DevelopmentProcess developmentProcess={developmentProcess} />
+      <VisualOutput visualouputimages={visualouputimages} />
       <div>
         <img
           src={sectionimage}
