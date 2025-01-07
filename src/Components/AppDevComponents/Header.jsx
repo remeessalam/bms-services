@@ -9,7 +9,7 @@ const Header = () => {
   const navigation = [
     { name: "Home", to: "/app-development" },
     { name: "Case Study", to: "/app-development/case-study" },
-    { name: "Work", to: "/app-development/work" },
+    // { name: "Work", to: "/app-development/work" },
   ];
 
   return (
