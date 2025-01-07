@@ -30,7 +30,7 @@ const ProblemsAndSolutions = ({ problemsFaced, solutionsOffered }) => {
           ))}
         </p>
       </div>
-      <img
+      {/* <img
         data-aos="fade-right"
         src={img1}
         alt="image-one"
@@ -49,7 +49,7 @@ const ProblemsAndSolutions = ({ problemsFaced, solutionsOffered }) => {
           alt="image-one"
           className="w-screen max-h-screen object-cover mt-16"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
