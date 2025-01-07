@@ -1,85 +1,88 @@
-import project1 from "./assets/websitedevelopment/images/projects/project1.png";
+// import project1 from "./assets/websitedevelopment/images/projects/project1.png";
 //TESTIMONIALS USER IMAGES
-import user1 from "./assets/websitedevelopment/images/casestudyimage/web/user1.jpeg";
-import user2 from "./assets/websitedevelopment/images/casestudyimage/web/user2.jpeg";
-import user33 from "./assets/websitedevelopment/images/casestudyimage/web/user33.jpeg";
-import user4 from "./assets/websitedevelopment/images/casestudyimage/web/user4.jpeg";
-import user5 from "./assets/websitedevelopment/images/casestudyimage/web/user5.jpeg";
-import user6 from "./assets/websitedevelopment/images/casestudyimage/web/user6.jpeg";
-import user7 from "./assets/websitedevelopment/images/casestudyimage/web/user7.jpeg";
-import user88 from "./assets/websitedevelopment/images/casestudyimage/web/user88.jpeg";
-import user9 from "./assets/websitedevelopment/images/casestudyimage/web/user9.jpeg";
-import user10 from "./assets/websitedevelopment/images/casestudyimage/web/user10.jpeg";
+import user1 from "../assets/websitedevelopment/images/casestudyimage/web/user1.jpeg";
+import user2 from "../assets/websitedevelopment/images/casestudyimage/web/user2.jpeg";
+import user33 from "../assets/websitedevelopment/images/casestudyimage/web/user33.jpeg";
+import user4 from "../assets/websitedevelopment/images/casestudyimage/web/user4.jpeg";
+import user5 from "../assets/websitedevelopment/images/casestudyimage/web/user5.jpeg";
+import user6 from "../assets/websitedevelopment/images/casestudyimage/web/user6.jpeg";
+import user7 from "../assets/websitedevelopment/images/casestudyimage/web/user7.jpeg";
+import user88 from "../assets/websitedevelopment/images/casestudyimage/web/user88.jpeg";
+import user9 from "../assets/websitedevelopment/images/casestudyimage/web/user9.jpeg";
+import user10 from "../assets/websitedevelopment/images/casestudyimage/web/user10.jpeg";
 // CASE STUDY IMAGES
-import case1visual1 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy1/visualoutput1.jpg";
-import case1visual2 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy1/visualoutput2.png";
-import case1visual3 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy1/visualoutput3.png";
-import case1visual4 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy1/visualoutput4.jpg";
-import case1visual5 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy2/visualoutput1.jpg";
-import case1visual6 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy2/visualoutput2.jpg";
-import case1visual7 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy2/visualoutput3.jpg";
-import case1visual8 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy3/visualoutput1.jpg";
-import case1visual9 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy3/visualoutput2.jpg";
-import case1visual10 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy3/visualoutput3.jpg";
-import case1visual11 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy4/visualoutput1.jpg";
-import case1visual12 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy4/visualoutput2.jpg";
-import case1visual13 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy4/visualoutput3.jpg";
-import case1visual14 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy4/visualoutput4.jpg";
-import case1visual15 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy5/visualoutput1.jpg";
-import case1visual16 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy5/visualoutput2.jpg";
-import case1visual17 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy5/visualoutput3.jpg";
-import case1visual18 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy5/visualoutput4.jpg";
-import case1visual19 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy6/visualoutput1.jpg";
-import case1visual20 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy6/visualoutput2.jpg";
-import case1visual21 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy6/visualoutput3.jpg";
-import case1visual22 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy6/visualoutput4.jpg";
-import case1visual23 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput1.jpg";
-import case1visual24 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput2.jpg";
-import case1visual25 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput3.jpg";
-import case1visual26 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput4.jpg";
-import case1visual27 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput5.jpg";
-import case1visual28 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy8/visualoutput1.jpg";
-import case1visual29 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy8/visualoutput2.jpg";
-import case1visual30 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy8/visualoutput3.jpg";
-import case1visual31 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy8/visualoutput4.jpg";
-import case1visual32 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy9/visualoutput1.png";
-import case1visual33 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy9/visualoutput2.jpg";
-import case1visual34 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy9/visualoutput3.jpg";
-import case1visual35 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput1.png";
-import case1visual36 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput2.jpg";
-import case1visual37 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput3.jpg";
-import case1visual38 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput4.png";
-import case1visual39 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput5.png";
-import case1visual40 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput1.jpg";
-import case1visual41 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput2.jpg";
-import case1visual42 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput3.jpg";
-import case1visual43 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput4.png";
-import case1visual44 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput5.png";
-import case1visual45 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput1.jpg";
-import case1visual46 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput2.jpg";
-import case1visual47 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput3.jpg";
-import case1visual48 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput4.jpg";
-import case1visual49 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput5.jpg";
-import case1visual50 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput1.png";
-import case1visual51 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput2.jpg";
-import case1visual52 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput3.jpg";
-import case1visual53 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput4.jpg";
-import case1visual54 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput5.png";
-import case1visual55 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput1.jpg";
-import case1visual56 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput2.jpg";
-import case1visual57 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput3.jpg";
-import case1visual58 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput4.jpg";
-import case1visual59 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput5.jpg";
-import case1visual60 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput1.png";
-import case1visual61 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput2.jpg";
-import case1visual62 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput3.jpg";
-import case1visual63 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput4.jpg";
-import case1visual64 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput5.png";
-import case1visual65 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput1.png";
-import case1visual66 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput2.png";
-import case1visual67 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput3.png";
-import case1visual68 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput4.png";
-import case1visual69 from "./assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput5.png";
+import case1visual1 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy1/visualoutput1.jpg";
+import case1visual2 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy1/visualoutput2.png";
+import case1visual3 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy1/visualoutput3.png";
+import case1visual4 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy1/visualoutput4.jpg";
+import case1visual5 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy2/visualoutput1.jpg";
+import case1visual6 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy2/visualoutput2.jpg";
+import case1visual7 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy2/visualoutput3.jpg";
+import case1visual8 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy3/visualoutput1.jpg";
+import case1visual9 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy3/visualoutput2.jpg";
+import case1visual10 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy3/visualoutput3.jpg";
+import case1visual11 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy4/visualoutput1.jpg";
+import case1visual12 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy4/visualoutput2.jpg";
+import case1visual13 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy4/visualoutput3.jpg";
+import case1visual14 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy4/visualoutput4.jpg";
+import case1visual15 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy5/visualoutput1.jpg";
+import case1visual16 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy5/visualoutput2.jpg";
+import case1visual17 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy5/visualoutput3.jpg";
+import case1visual18 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy5/visualoutput4.jpg";
+import case1visual19 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy6/visualoutput1.jpg";
+import case1visual20 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy6/visualoutput2.jpg";
+import case1visual21 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy6/visualoutput3.jpg";
+import case1visual22 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy6/visualoutput4.jpg";
+import case1visual23 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput1.jpg";
+import case1visual24 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput2.jpg";
+import case1visual25 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput3.jpg";
+import case1visual26 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput4.jpg";
+import case1visual27 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy7/visualoutput5.jpg";
+import case1visual28 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy8/visualoutput1.jpg";
+import case1visual29 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy8/visualoutput2.jpg";
+import case1visual30 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy8/visualoutput3.jpg";
+import case1visual31 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy8/visualoutput4.jpg";
+import case1visual32 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy9/visualoutput1.png";
+import case1visual33 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy9/visualoutput2.jpg";
+import case1visual34 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy9/visualoutput3.jpg";
+import case1visual35 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput1.png";
+import case1visual36 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput2.jpg";
+import case1visual37 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput3.jpg";
+import case1visual38 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput4.png";
+import case1visual39 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy10/visualoutput5.png";
+import case1visual40 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput1.jpg";
+import case1visual41 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput2.jpg";
+import case1visual42 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput3.jpg";
+import case1visual43 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput4.png";
+import case1visual44 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy11/visualoutput5.png";
+import case1visual45 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput1.jpeg";
+import case1visual46 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput2.jpeg";
+import case1visual47 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput3.jpeg";
+import case1visual48 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput4.jpeg";
+import case1visual49 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput5.jpeg";
+import case1visual70 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy12/visualoutput6.jpeg";
+import case1visual50 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput1.jpeg";
+import case1visual51 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput2.jpeg";
+import case1visual52 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput3.jpeg";
+import case1visual53 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput4.jpeg";
+import case1visual54 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput5.jpeg";
+import case1visual71 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput6.jpeg";
+import case1visual72 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy13/visualoutput7.jpeg";
+import case1visual55 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput1.jpg";
+import case1visual56 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput2.jpg";
+import case1visual57 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput3.jpg";
+import case1visual58 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput4.jpg";
+import case1visual59 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy14/visualoutput5.jpg";
+import case1visual60 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput1.jpeg";
+import case1visual61 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput2.jpeg";
+import case1visual62 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput3.jpeg";
+import case1visual63 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput4.jpeg";
+import case1visual64 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy15/visualoutput5.jpeg";
+import case1visual65 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput1.jpeg";
+import case1visual66 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput2.jpeg";
+import case1visual67 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput3.jpeg";
+import case1visual68 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput4.jpeg";
+import case1visual69 from "../assets/websitedevelopment/images/casestudyimage/web/casestudy16/visualoutput5.jpeg";
 export const webCaseStudies = [
   {
     webcasestudy: [
@@ -687,7 +690,7 @@ export const webCaseStudies = [
       },
       {
         review: {
-          userimg: user4,
+          userimg: user7,
           content:
             "The Urban Photography Hub has become a haven for urban photographers. Its bold design perfectly complements the creativity of its users, and the live challenges have created a vibrant, engaging community. The team truly understood our vision and brought it to life in an innovative way. Highly recommended for anyone building a creative platform — Community Manager, Urban Photography Hub",
           author: "Urban Photography Hub",
@@ -1192,7 +1195,7 @@ export const webCaseStudies = [
       },
       {
         review: {
-          userimg: user6,
+          userimg: user10,
           content:
             "The Minimalist Coffee Shop Website beautifully reflects the essence of our coffee shop. Customers love the brewing methods section, and the online ordering system has made operations much smoother. This team brought our vision to life with exceptional attention to detail. Highly recommended! — Owner, Local Coffee Shop",
           author: "Owner",
@@ -2073,6 +2076,7 @@ export const webCaseStudies = [
           case1visual47,
           case1visual48,
           case1visual49,
+          case1visual70,
         ],
       },
     ],
@@ -2237,6 +2241,8 @@ export const webCaseStudies = [
           case1visual52,
           case1visual53,
           case1visual54,
+          case1visual71,
+          case1visual72,
         ],
       },
     ],
@@ -2688,7 +2694,7 @@ export const webCaseStudies = [
       },
       {
         review: {
-          userimg: user2,
+          userimg: user1,
           content:
             "Healthifyr has transformed my fitness routine! The wearable integration and personalized workout plans keep me on track, while the social challenges and AI-driven insights keep me motivated. The nutritional guidance is a game-changer. Highly recommended for anyone looking to achieve their health goals — Fitness Enthusiast, Healthifyr",
           author: "Healthifyr",
@@ -2741,5 +2747,3 @@ export const webCaseStudies = [
     ],
   },
 ];
-
-export const appCaseStudies = [];

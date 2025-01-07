@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 // import { projects } from "../../pages/WebsiteDevPages/constant";
-import { webCaseStudies } from "../../caseStudies";
+import { webCaseStudies } from "../../caseStudies/webCaseStudies";
 
 const Projects = () => {
   const navigate = useNavigate();

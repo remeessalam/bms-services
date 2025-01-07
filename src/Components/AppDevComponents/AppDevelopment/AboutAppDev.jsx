@@ -1,27 +1,22 @@
 // import { ArrowUpRight } from "lucide-react";
-const AboutWebDev = () => {
+const AboutWebDev = ({
+  heroSection,
+  titleSection,
+  aboutProject,
+  whyChooseUs,
+}) => {
   const Info = [
     // { title: "CLIENT", content: "Nancy jhosep" },
-    { title: "CATEGORY", content: "Credit Loan" },
-    // {
-    //   title: "LIVE VIEW",
-    //   content: (
-    //     <a
-    //       href="#"
-    //       className="font-medium flex items-center hover:text-blue-500 transition-colors"
-    //     >
-    //       Visit Website <ArrowUpRight className="ml-1 w-4 h-4" />
-    //     </a>
-    //   ),
-    // },
-    { title: "TIMELINES", content: "3 Months" },
+    { title: "CATEGORY", content: titleSection.category },
+
+    { title: "TIMELINES", content: titleSection.timeline },
     {
       title: "SERVICE WE PROVIDED",
       content: (
         <ul className="space-y-1">
-          <li>• Framework</li>
-          <li>• UI Design</li>
-          <li>• Development</li>
+          {titleSection.servicesProvided.map((obj) => (
+            <li key={obj}>{obj}</li>
+          ))}
         </ul>
       ),
     },
@@ -29,8 +24,7 @@ const AboutWebDev = () => {
   const WhyChoose = [
     {
       title: "Instant Approval:",
-      description:
-        "Get quick loan approvals, often within minutes.",
+      description: "Get quick loan approvals, often within minutes.",
     },
     {
       title: "Flexible Repayment:",
@@ -42,13 +36,11 @@ const AboutWebDev = () => {
     },
     {
       title: "Secure Transactions:",
-      description:
-        "Your financial information is safe with us.",
+      description: "Your financial information is safe with us.",
     },
     {
       title: "Transparent Fees:",
-      description:
-        "No hidden charges or unexpected costs.",
+      description: "No hidden charges or unexpected costs.",
     },
   ];
   return (
@@ -56,7 +48,7 @@ const AboutWebDev = () => {
       <div className="wrapper">
         <div className="mb-16">
           <h1 className="section-heading" data-aos="fade-up">
-            Crio- Credit loan Application
+            {heroSection.title}
           </h1>
         </div>
 
@@ -77,16 +69,14 @@ const AboutWebDev = () => {
           </div>
           <div className="md:col-span-2">
             <p className="desc !text-white" data-aos="fade-left">
-              Crio is your go-to app for quick and easy personal loans. Whether
-              you&apos;re facing an unexpected expense or simply need some extra
-              cash, Crio offers a hassle-free solution to your financial needs.
+              {aboutProject?.description}
             </p>
             <div>
               <h2 className="text-2xl font-bold my-8" data-aos="fade-left">
-                Why Choose Crio?
+                Why Choose Us?
               </h2>
               <ul className="space-y-6 max-w-3xl">
-                {WhyChoose.map((feature, index) => (
+                {whyChooseUs.map((feature, index) => (
                   <li
                     key={index}
                     className="flex flex-col"

@@ -12,7 +12,7 @@ import OurOffices from "../../Components/OurOffice";
 import Footer from "../../Components/WebsiteDevComponents/Footer";
 import Header from "../../Components/WebsiteDevComponents/Header";
 import { useParams } from "react-router-dom";
-import { webCaseStudies } from "../../caseStudies";
+import { webCaseStudies } from "../../caseStudies/webCaseStudies";
 const WebDevelopment = () => {
   const { id } = useParams();
 

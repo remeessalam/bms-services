@@ -11,16 +11,37 @@ import ContactForm from "../../Components/ContactForm";
 import OurOffices from "../../Components/OurOffice";
 import Footer from "../../Components/AppDevComponents/Footer";
 import Header from "../../Components/AppDevComponents/Header";
+import { useParams } from "react-router-dom";
+import { appCaseStudies } from "../../caseStudies/appCaseStudies";
 const AppWork = () => {
+  const { id } = useParams();
+
+  const { appcasestudy } = appCaseStudies[id];
+  const heroSection = appcasestudy[0];
+  const titleSection = appcasestudy[1];
+  const { aboutTheProject } = appcasestudy[2];
+  const { whyChooseUs } = appcasestudy[3];
+  const { problemsFaced, solutionsOffered } = appcasestudy[4];
+  const { review } = appcasestudy[5];
+  const { developmentProcess } = appcasestudy[6];
+  const { visualouputimages } = appcasestudy[7];
   return (
     <div>
       <Header />
-      <AppDevBanner />
-      <AboutAppDev />
-      <ProblemsAndSolutions />
-      <Testimonial />
-      <DevelopmentProcess />
-      <VisualOutput />
+      <AppDevBanner heroSection={heroSection} />
+      <AboutAppDev
+        heroSection={heroSection}
+        titleSection={titleSection}
+        aboutProject={aboutTheProject}
+        whyChooseUs={whyChooseUs}
+      />
+      <ProblemsAndSolutions
+        problemsFaced={problemsFaced}
+        solutionsOffered={solutionsOffered}
+      />
+      <Testimonial review={review} />
+      <DevelopmentProcess developmentProcess={developmentProcess} />
+      <VisualOutput visualouputimages={visualouputimages} />
       <div>
         <img
           src={sectionimage}

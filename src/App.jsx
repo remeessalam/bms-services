@@ -48,7 +48,7 @@ const AppRouter = createBrowserRouter([
         element: <AppDevCaseStudy />,
       },
       {
-        path: "/app-development/work",
+        path: "/app-development/work/:id",
         element: <AppWork />,
       },
     ],
