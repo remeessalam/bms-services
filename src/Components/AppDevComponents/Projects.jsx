@@ -1,5 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import { appCaseStudies } from "../../caseStudies/appCaseStudies";
+import {
+  appCaseStudies,
+  openCaseStudy,
+} from "../../caseStudies/appCaseStudies";
 // import { projects } from "../../pages/AppDevPages/constant";
 
 const Projects = () => {
@@ -10,34 +13,32 @@ const Projects = () => {
   console.log(appCaseStudies, "asdfasd");
 
   return (
-    <div className="min-h-screen bg-black px-4 sm:px-6 lg:px-8 py-16">
+    <div className=" bg-black px-4 sm:px-6 lg:px-8 py-16">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-0">
-          {appCaseStudies.map((project, index) => {
-            const projectBanner = project.appcasestudy[0];
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0">
+          {openCaseStudy.map((project, index) => {
+            // const projectBanner = project.bannerImage;
             return (
               <div
                 data-aos="fade-up"
                 key={index}
-                onClick={() => handleClick(projectBanner.id)}
-                className={`group relative  ${
-                  index % 2 === 0 ? "md:pr-8" : "md:pl-8 md:pt-40"
-                }`}
+                onClick={() => handleClick(project.id)}
+                className={`group relative flex justify-center items-center  `}
               >
                 <div className="overflow-hidden rounded-lg bg-gray-900">
                   <img
-                    src={projectBanner.image}
-                    alt={projectBanner.title}
-                    className="w-full h-auto cursor-pointer object-cover transition-transform duration-300 group-hover:scale-105"
+                    src={project.bannerImage}
+                    alt={project.client}
+                    className="w-full h-full aspect-square cursor-pointer object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
-                <div className="mt-4 flex items-start justify-between">
-                  <div className="flex flex-col">
-                    <h3 className="text-white cursor-pointer text-lg font-medium pr-4">
-                      {projectBanner.title}
+                <div className="mt-4 h-[5rem] left-0   w-full absolute bottom-5 flex items-center justify-center">
+                  <div className="flex w-[80%] h-full justify-center items-center bg-gradient-to-b rounded-xl from-white  to-white/50">
+                    <h3 className="text-black cursor-pointer text-lg font-medium pr-4">
+                      {project.client}
                     </h3>
-                    <p className="desc cursor-pointer">{projectBanner.desc}</p>
                   </div>
+                  {/* <p className="desc cursor-pointer">{project.desc}</p> */}
                   {/* <div className="flex-shrink-0 w-6 h-6 rounded-full bg-yellow-400 flex items-center justify-center">
                   <span className="text-black text-sm font-bold">
                     {project.number}

@@ -27,6 +27,17 @@ import case1visual13 from "../assets/appdevelopment/images/casestudies/casestudi
 import case1visual14 from "../assets/appdevelopment/images/casestudies/casestudies1/visualoutput4.png";
 import case1visual15 from "../assets/appdevelopment/images/casestudies/casestudies1/visualoutput5.png";
 import case1visual16 from "../assets/appdevelopment/images/casestudies/casestudies1/visualoutput6.png";
+
+import caseStudyBannerImage from "../assets/appdevelopment/images2/case-study-banner-image.png";
+import caseStudyImage1 from "../assets/appdevelopment/images2/design-1.jpg";
+import caseStudyImage2 from "../assets/appdevelopment/images2/design-2.jpg";
+import caseStudyImage3 from "../assets/appdevelopment/images2/design-3.jpg";
+import caseStudyImage4 from "../assets/appdevelopment/images2/design-4.jpg";
+import caseStudyImage5 from "../assets/appdevelopment/images2/design-5.jpg";
+import caseStudyImage6 from "../assets/appdevelopment/images2/design-6.jpg";
+import caseStudyImage7 from "../assets/appdevelopment/images2/design-7.jpg";
+import caseStudyImage8 from "../assets/appdevelopment/images2/design-8.jpg";
+
 export const appCaseStudies = [
   {
     appcasestudy: [
@@ -516,6 +527,112 @@ export const appCaseStudies = [
           case1visual4,
           case1visual5,
         ],
+      },
+    ],
+  },
+];
+
+export const openCaseStudy = [
+  {
+    id: 1,
+    bannerImage: caseStudyBannerImage,
+    firstImageSet: [caseStudyImage1, caseStudyImage2, caseStudyImage3],
+    secondImageSet: [caseStudyImage4, caseStudyImage3],
+    thirdImageSet: [
+      caseStudyImage5,
+      caseStudyImage6,
+      caseStudyImage7,
+      caseStudyImage8,
+    ],
+    client: "Open - Breathwork & Meditation",
+    businessType: "Mobile App (Health & Wellness)",
+    industry: "Mindfulness, Lifestyle, Mental Well-being",
+    url: "https://apps.apple.com/in/app/open-breathwork-meditation/id1482725254",
+    servicesProvided: [
+      "App Design & Development",
+      "App Store Optimization",
+      "Organic Growth Campaigns",
+      "Community Marketing",
+    ],
+    companyOverview:
+      "Open is a modern breathwork, meditation, and mindfulness platform designed to enhance mental well-being through audio, video, and live classes. The app blends ancient practices with contemporary experiences, helping users manage stress, improve sleep, enhance focus, and nurture self-awareness—all from their mobile device. With a visually calming interface and high-quality guided sessions, Open stands out as a lifestyle companion for holistic well-being.",
+    objective:
+      "Open aimed to position itself not just as a meditation app but as a daily ritual for mindfulness and self-care. The focus was on delivering an immersive user experience, increasing organic discoverability on the App Store, driving user retention, and building a loyal community of mindful users through non-intrusive, content-first marketing.",
+    approach: {
+      researchStrategy:
+        "We began by deep-diving into user behavior in the mindfulness and breathwork space. Our analysis revealed that many existing apps either focused solely on meditation or breathwork but lacked integration of both in a seamless daily routine. We positioned Open as a ‘Hybrid Mindfulness Studio’—bridging guided meditation, breathwork, and music into one unified platform, curated for both beginners and experienced practitioners.",
+      designDevelopment: [
+        {
+          type: "Frontend",
+          description:
+            "Swift (iOS native) to enable fluid UI and soothing transitions.",
+        },
+        {
+          type: "Backend",
+          description:
+            "Node.js & GraphQL for handling real-time live sessions and content streaming.",
+        },
+        {
+          type: "Cloud Infrastructure",
+          description:
+            "AWS with CDN integration to ensure fast and stable content delivery globally.",
+        },
+        {
+          type: "Audio & Video Optimization",
+          description:
+            "Use of adaptive streaming for high-quality classes without buffering.",
+        },
+        {
+          type: "Subscription & Payments",
+          description:
+            "Apple In-App Purchases with tiered access to free and premium classes.",
+        },
+        {
+          type: "User Analytics",
+          description:
+            "Firebase & Mixpanel to monitor user engagement, session streaks, and feature adoption.",
+        },
+      ],
+      organicGrowthMarketing: [
+        {
+          type: "ASO",
+          description:
+            "We crafted an ASO (App Store Optimization) strategy focused on keywords like ‘breathwork,’ ‘meditation app,’ and ‘mindfulness.’",
+        },
+        {
+          type: "Influencer Partnerships",
+          description:
+            "Influencer partnerships with wellness coaches, mental health advocates, and yoga instructors who organically promoted Open as part of their lifestyle.",
+        },
+        {
+          type: "Community Campaigns",
+          description:
+            "21 Days of Breathwork Challenge’ encouraging user participation and social media sharing, increasing organic app installs through user-generated content.",
+        },
+      ],
+      continuousOptimization:
+        "Implemented agile sprints to iterate features based on user feedback. New personalization features like daily practice reminders, streak badges, and AI-recommended classes were introduced, enhancing habit-building and user retention.",
+    },
+    results: [
+      {
+        type: "Organic Installs Increase",
+        description:
+          "55% increase in organic installs within 4 months of ASO and content campaigns.",
+      },
+      {
+        type: "User Retention Improvement",
+        description:
+          "38% improvement in user retention rate, with users completing more sessions per week.",
+      },
+      {
+        type: "ASO Positioning",
+        description:
+          "Positioned Open in the top results for breathwork and meditation-related keywords on the App Store.",
+      },
+      {
+        type: "Community Engagement",
+        description:
+          "Built a highly engaged community with thousands of user-generated posts and participation in in-app challenges.",
       },
     ],
   },

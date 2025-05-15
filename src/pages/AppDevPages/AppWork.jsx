@@ -12,7 +12,10 @@ import OurOffices from "../../Components/OurOffice";
 import Footer from "../../Components/AppDevComponents/Footer";
 import Header from "../../Components/AppDevComponents/Header";
 import { useParams } from "react-router-dom";
-import { appCaseStudies } from "../../caseStudies/appCaseStudies";
+import {
+  appCaseStudies,
+  openCaseStudy,
+} from "../../caseStudies/appCaseStudies";
 const AppWork = () => {
   const { id } = useParams();
 
@@ -25,23 +28,31 @@ const AppWork = () => {
   const { review } = appcasestudy[5];
   const { developmentProcess } = appcasestudy[6];
   const { visualouputimages } = appcasestudy[7];
+
+  const caseStudyDetails = openCaseStudy[id - 1];
+  console.log(openCaseStudy, id, "asdfasdfasdfasdf");
   return (
     <div>
       <Header />
-      <AppDevBanner heroSection={heroSection} />
-      <AboutAppDev
+      <AppDevBanner
         heroSection={heroSection}
-        titleSection={titleSection}
-        aboutProject={aboutTheProject}
-        whyChooseUs={whyChooseUs}
+        caseStudyDetails={caseStudyDetails}
       />
+      <AboutAppDev caseStudyDetails={caseStudyDetails} />
       <ProblemsAndSolutions
         problemsFaced={problemsFaced}
         solutionsOffered={solutionsOffered}
+        caseStudyDetails={caseStudyDetails}
       />
-      <Testimonial review={review} />
-      <DevelopmentProcess developmentProcess={developmentProcess} />
-      <VisualOutput visualouputimages={visualouputimages} />
+      <Testimonial review={review} caseStudyDetails={caseStudyDetails} />
+      <DevelopmentProcess
+        developmentProcess={developmentProcess}
+        caseStudyDetails={caseStudyDetails}
+      />
+      <VisualOutput
+        visualouputimages={visualouputimages}
+        caseStudyDetails={caseStudyDetails}
+      />
       <div>
         <img
           src={sectionimage}

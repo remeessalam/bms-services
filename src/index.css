@@ -18,6 +18,12 @@
   .heading {
     @apply text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl;
   }
+  .casestudy-heading {
+    @apply text-base  text-[#7d7d82] font-medium;
+  }
+  .casestudy-desc {
+    @apply text-base  text-white/80 font-medium;
+  }
   .desc {
     @apply text-gray-600 text-lg sm:text-xl;
   }
