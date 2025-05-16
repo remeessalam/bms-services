@@ -19,7 +19,7 @@ import {
 const AppWork = () => {
   const { id } = useParams();
 
-  const { appcasestudy } = appCaseStudies[id];
+  const { appcasestudy } = appCaseStudies[1];
   // const heroSection = appcasestudy[0];
   // const titleSection = appcasestudy[1];
   // const { aboutTheProject } = appcasestudy[2];

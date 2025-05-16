@@ -45,6 +45,14 @@ import easyparkcaseStudyImage2 from "../assets/appdevelopment/images2/easypark/d
 import easyparkcaseStudyImage3 from "../assets/appdevelopment/images2/easypark/design-3.jpg";
 import easyparkcaseStudyImage4 from "../assets/appdevelopment/images2/easypark/design-4.jpg";
 import easyparkcaseStudyImage5 from "../assets/appdevelopment/images2/easypark/design-5.jpg";
+
+import birdiescaseStudyBannerImage from "../assets/appdevelopment/images2/18birdies/18birdies-case-study-banner-image.jpg";
+import birdiesdisplayImage from "../assets/appdevelopment/images2/18birdies/dp.png";
+import birdiescaseStudyImage1 from "../assets/appdevelopment/images2/18birdies/design-1.jpg";
+import birdiescaseStudyImage2 from "../assets/appdevelopment/images2/18birdies/design-2.jpg";
+import birdiescaseStudyImage3 from "../assets/appdevelopment/images2/18birdies/design-3.jpg";
+import birdiescaseStudyImage4 from "../assets/appdevelopment/images2/18birdies/design-4.jpg";
+import birdiescaseStudyImage5 from "../assets/appdevelopment/images2/18birdies/design-5.jpg";
 // import easyparkcaseStudyImage6 from "../assets/appdevelopment/images2/easypark/design-6.jpg";
 // import easyparkcaseStudyImage7 from "../assets/appdevelopment/images2/easypark/design-7.jpg";
 // import easyparkcaseStudyImage8 from "../assets/appdevelopment/images2/easypark/design-8.jpg";
@@ -757,6 +765,115 @@ export const openCaseStudy = [
         type: "Brand Awareness",
         description:
           "The app now enjoys a wider user base and greater brand awareness in both existing and new markets.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    dpImage: birdiesdisplayImage,
+    bannerImage: birdiescaseStudyBannerImage,
+    firstImageSet: [
+      birdiescaseStudyImage1,
+      birdiescaseStudyImage2,
+      birdiescaseStudyImage3,
+    ],
+    secondImageSet: [birdiescaseStudyImage4, birdiescaseStudyImage5],
+
+    client: "18Birdies – Golf GPS Tracker",
+    businessType: "Mobile App (Sports & Recreation)",
+    industry: "Golf, Sports Tech, Lifestyle",
+    url: "https://apps.apple.com/in/app/18birdies-golf-gps-tracker/id892700751",
+    servicesProvided: [
+      "App UI/UX Enhancement",
+      "Gamification Strategy",
+      "App Store Optimization",
+      "Organic Growth Campaigns",
+      "Community Engagement",
+    ],
+    companyOverview:
+      "18Birdies is an all-in-one golf app designed to elevate the playing experience for golfers of all skill levels. Offering precise GPS rangefinding, digital scorecards, stat tracking, and AI-driven game improvement tips, the app serves as a digital caddy, coach, and community hub. With interactive features like side games, challenges, and social sharing, 18Birdies turns every round of golf into an engaging, gamified experience.",
+    objective:
+      "18Birdies wanted to strengthen its position as the go-to golf companion app by enhancing user engagement, increasing organic discoverability, and fostering a vibrant community of amateur and pro golfers. The goal was to balance serious game improvement tools with fun, social elements to keep users returning both on and off the course.",
+    approach: {
+      researchStrategy:
+        "We conducted a deep analysis of golfer behavior and trends in sports apps. Insights revealed a gap in apps that offered both serious game analytics and casual, social gameplay elements. We repositioned 18Birdies as a 'Smart & Social Golf Companion'—blending performance tracking with gamified challenges and community interaction.",
+      designDevelopment: [
+        {
+          type: "Frontend",
+          description:
+            "Swift (iOS native) for seamless UI animations, real-time GPS data visualization, and interactive scorecards.",
+        },
+        {
+          type: "Backend",
+          description:
+            "Node.js with Firebase for real-time stat syncing and leaderboard updates.",
+        },
+        {
+          type: "AI Features",
+          description:
+            "Integrated AI-powered swing tips and predictive club recommendations.",
+        },
+        {
+          type: "Gamification Layer",
+          description:
+            "Added new side games, rewards system, and weekly leaderboard challenges to boost engagement.",
+        },
+        {
+          type: "Offline Mode",
+          description:
+            "Optimized GPS functionality for areas with limited connectivity.",
+        },
+      ],
+      organicGrowthMarketing: [
+        {
+          type: "App Store Optimization",
+          description:
+            "Focused on keywords like 'golf GPS,' 'golf scorecard,' and 'golf stats tracker' to improve discoverability.",
+        },
+        {
+          type: "Influencer Partnerships",
+          description:
+            "Collaborated with golf influencers, amateur tour players, and coaches for content collaborations.",
+        },
+        {
+          type: "Community Campaigns",
+          description:
+            "Launched seasonal events like the 'Virtual Golf Tour Challenge' where users could compete in app-based tournaments with rewards and social sharing features.",
+        },
+        {
+          type: "User-Generated Content",
+          description:
+            "Encouraged players to share their best shots, course experiences, and leaderboard wins on social media.",
+        },
+      ],
+      continuousOptimization:
+        "Using user feedback and analytics, we continuously optimized features by adding personalized practice drills based on user stats, introducing streak rewards for consecutive rounds played, and enhancing push notifications with AI-personalized game tips before tee times.",
+    },
+    results: [
+      {
+        type: "Organic Downloads Increase",
+        description:
+          "Increased organic downloads by 47% in 3 months post ASO & influencer activations.",
+      },
+      {
+        type: "Weekly Active Users",
+        description:
+          "Improved weekly active users by 42%, driven by gamified challenges and streak rewards.",
+      },
+      {
+        type: "User Retention",
+        description:
+          "Boosted user retention by 35%, with higher repeat engagement on weekends.",
+      },
+      {
+        type: "Community Presence",
+        description:
+          "Strengthened community presence with thousands of user-shared golf highlights and leaderboard posts.",
+      },
+      {
+        type: "App Store Ranking",
+        description:
+          "Achieved top 10 ranking for 'Golf GPS' and 'Golf Scorecard' keywords on the App Store.",
       },
     ],
   },
