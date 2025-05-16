@@ -2,9 +2,9 @@ import AboutAppDev from "../../Components/AppDevComponents/AppDevelopment/AboutA
 import DevelopmentProcess from "../../Components/AppDevComponents/AppDevelopment/DevelopmentProcess";
 import ProblemsAndSolutions from "../../Components/AppDevComponents/AppDevelopment/ProblemsAndSolutions";
 import Testimonial from "../../Components/AppDevComponents/AppDevelopment/Testimonials";
-import VisualOutput from "../../Components/AppDevComponents/AppDevelopment/VisualOutput";
+// import VisualOutput from "../../Components/AppDevComponents/AppDevelopment/VisualOutput";
 import AppDevBanner from "../../Components/AppDevComponents/AppDevelopment/AppDevBanner";
-import sectionimage from "../../assets/appdevelopment/images/websitebgimage.jpeg";
+// import sectionimage from "../../assets/appdevelopment/images/websitebgimage.jpeg";
 import impactbg from "../../assets/appdevelopment/images/impactbgimg.png";
 import Projects from "../../Components/AppDevComponents/Projects";
 import ContactForm from "../../Components/ContactForm";
@@ -20,14 +20,14 @@ const AppWork = () => {
   const { id } = useParams();
 
   const { appcasestudy } = appCaseStudies[id];
-  const heroSection = appcasestudy[0];
-  const titleSection = appcasestudy[1];
-  const { aboutTheProject } = appcasestudy[2];
-  const { whyChooseUs } = appcasestudy[3];
-  const { problemsFaced, solutionsOffered } = appcasestudy[4];
+  // const heroSection = appcasestudy[0];
+  // const titleSection = appcasestudy[1];
+  // const { aboutTheProject } = appcasestudy[2];
+  // const { whyChooseUs } = appcasestudy[3];
+  // const { problemsFaced, solutionsOffered } = appcasestudy[4];
   const { review } = appcasestudy[5];
-  const { developmentProcess } = appcasestudy[6];
-  const { visualouputimages } = appcasestudy[7];
+  // const { developmentProcess } = appcasestudy[6];
+  // const { visualouputimages } = appcasestudy[7];
 
   const caseStudyDetails = openCaseStudy[id - 1];
   console.log(openCaseStudy, id, "asdfasdfasdfasdf");
@@ -35,31 +35,31 @@ const AppWork = () => {
     <div>
       <Header />
       <AppDevBanner
-        heroSection={heroSection}
+        // heroSection={heroSection}
         caseStudyDetails={caseStudyDetails}
       />
       <AboutAppDev caseStudyDetails={caseStudyDetails} />
       <ProblemsAndSolutions
-        problemsFaced={problemsFaced}
-        solutionsOffered={solutionsOffered}
+        // problemsFaced={problemsFaced}
+        // solutionsOffered={solutionsOffered}
         caseStudyDetails={caseStudyDetails}
       />
       <Testimonial review={review} caseStudyDetails={caseStudyDetails} />
       <DevelopmentProcess
-        developmentProcess={developmentProcess}
+        // developmentProcess={developmentProcess}
         caseStudyDetails={caseStudyDetails}
       />
-      <VisualOutput
+      {/* <VisualOutput
         visualouputimages={visualouputimages}
         caseStudyDetails={caseStudyDetails}
-      />
-      <div>
+      /> */}
+      {/* <div>
         <img
           src={sectionimage}
           alt="sectionimage"
           className="w-full max-h-screen"
         />
-      </div>
+      </div> */}
       <div className="relative overflow-hidden padding-between h-[77vh] flex justify-center items-center">
         <div className="absolute left-0  top-0 -z-10">
           <img src={impactbg} alt="impactbg" data-aos="fade-right" />

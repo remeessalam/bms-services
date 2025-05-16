@@ -7,7 +7,7 @@ const VisualOutput = ({ caseStudyDetails }) => {
             Visual Output
           </h1>
         </div> */}
-        <div className="grid md:grid-cols-2 gap-8 mt-8">
+        {/* <div className="grid md:grid-cols-2 gap-8 mt-8">
           {caseStudyDetails.thirdImageSet.map((obj, i) => (
             <div data-aos="fade-up" key={i}>
               <img
@@ -17,7 +17,7 @@ const VisualOutput = ({ caseStudyDetails }) => {
               />
             </div>
           ))}
-        </div>
+        </div> */}
         {/* <div className="mt-16 grid sm:grid-cols-2 md:grid-cols-4 gap-5">
           <img
             data-aos="fade-up"

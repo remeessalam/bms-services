@@ -28,15 +28,26 @@ import case1visual14 from "../assets/appdevelopment/images/casestudies/casestudi
 import case1visual15 from "../assets/appdevelopment/images/casestudies/casestudies1/visualoutput5.png";
 import case1visual16 from "../assets/appdevelopment/images/casestudies/casestudies1/visualoutput6.png";
 
-import caseStudyBannerImage from "../assets/appdevelopment/images2/case-study-banner-image.png";
-import caseStudyImage1 from "../assets/appdevelopment/images2/design-1.jpg";
-import caseStudyImage2 from "../assets/appdevelopment/images2/design-2.jpg";
-import caseStudyImage3 from "../assets/appdevelopment/images2/design-3.jpg";
-import caseStudyImage4 from "../assets/appdevelopment/images2/design-4.jpg";
-import caseStudyImage5 from "../assets/appdevelopment/images2/design-5.jpg";
-import caseStudyImage6 from "../assets/appdevelopment/images2/design-6.jpg";
-import caseStudyImage7 from "../assets/appdevelopment/images2/design-7.jpg";
-import caseStudyImage8 from "../assets/appdevelopment/images2/design-8.jpg";
+import breathworkcaseStudyBannerImage from "../assets/appdevelopment/images2/breathwork/case-study-banner-image.png";
+import breathworkcaseStudyImage1 from "../assets/appdevelopment/images2/breathwork/design-1.jpg";
+import breathworkcaseStudyImage2 from "../assets/appdevelopment/images2/breathwork/design-2.jpg";
+import breathworkcaseStudyImage3 from "../assets/appdevelopment/images2/breathwork/design-3.jpg";
+import breathworkcaseStudyImage4 from "../assets/appdevelopment/images2/breathwork/design-4.jpg";
+import breathworkcaseStudyImage5 from "../assets/appdevelopment/images2/breathwork/design-5.jpg";
+import breathworkcaseStudyImage6 from "../assets/appdevelopment/images2/breathwork/design-6.jpg";
+import breathworkcaseStudyImage7 from "../assets/appdevelopment/images2/breathwork/design-7.jpg";
+import breathworkcaseStudyImage8 from "../assets/appdevelopment/images2/breathwork/design-8.jpg";
+
+import easyparkcaseStudyBannerImage from "../assets/appdevelopment/images2/easypark/easypark-case-study-banner-image.jpg";
+import easyparkdisplayImage from "../assets/appdevelopment/images2/easypark/dp.png";
+import easyparkcaseStudyImage1 from "../assets/appdevelopment/images2/easypark/design-1.jpg";
+import easyparkcaseStudyImage2 from "../assets/appdevelopment/images2/easypark/design-2.jpg";
+import easyparkcaseStudyImage3 from "../assets/appdevelopment/images2/easypark/design-3.jpg";
+import easyparkcaseStudyImage4 from "../assets/appdevelopment/images2/easypark/design-4.jpg";
+import easyparkcaseStudyImage5 from "../assets/appdevelopment/images2/easypark/design-5.jpg";
+// import easyparkcaseStudyImage6 from "../assets/appdevelopment/images2/easypark/design-6.jpg";
+// import easyparkcaseStudyImage7 from "../assets/appdevelopment/images2/easypark/design-7.jpg";
+// import easyparkcaseStudyImage8 from "../assets/appdevelopment/images2/easypark/design-8.jpg";
 
 export const appCaseStudies = [
   {
@@ -535,14 +546,19 @@ export const appCaseStudies = [
 export const openCaseStudy = [
   {
     id: 1,
-    bannerImage: caseStudyBannerImage,
-    firstImageSet: [caseStudyImage1, caseStudyImage2, caseStudyImage3],
-    secondImageSet: [caseStudyImage4, caseStudyImage3],
+    dpImage: breathworkcaseStudyBannerImage,
+    bannerImage: breathworkcaseStudyBannerImage,
+    firstImageSet: [
+      breathworkcaseStudyImage1,
+      breathworkcaseStudyImage2,
+      breathworkcaseStudyImage3,
+    ],
+    secondImageSet: [breathworkcaseStudyImage4, breathworkcaseStudyImage3],
     thirdImageSet: [
-      caseStudyImage5,
-      caseStudyImage6,
-      caseStudyImage7,
-      caseStudyImage8,
+      breathworkcaseStudyImage5,
+      breathworkcaseStudyImage6,
+      breathworkcaseStudyImage7,
+      breathworkcaseStudyImage8,
     ],
     client: "Open - Breathwork & Meditation",
     businessType: "Mobile App (Health & Wellness)",
@@ -633,6 +649,114 @@ export const openCaseStudy = [
         type: "Community Engagement",
         description:
           "Built a highly engaged community with thousands of user-generated posts and participation in in-app challenges.",
+      },
+    ],
+  },
+  {
+    id: 2,
+    dpImage: easyparkdisplayImage,
+    bannerImage: easyparkcaseStudyBannerImage,
+    firstImageSet: [
+      easyparkcaseStudyImage1,
+      easyparkcaseStudyImage2,
+      easyparkcaseStudyImage3,
+    ],
+    secondImageSet: [easyparkcaseStudyImage4, easyparkcaseStudyImage5],
+    // thirdImageSet: [
+    //   breathworkcaseStudyImage5,
+    //   breathworkcaseStudyImage6,
+    //   breathworkcaseStudyImage7,
+    //   breathworkcaseStudyImage8,
+    // ],
+    client: "EasyPark",
+    businessType: "Mobile App (Parking & EV Charging)",
+    industry: "Mobility Services, Smart Cities",
+    url: "https://www.easyparkgroup.com",
+    applicationUrl:
+      "https://apps.apple.com/in/app/easypark-parking-made-easy/id449594317",
+    servicesProvided: [
+      "App Design & Development",
+      "User Journey Optimization",
+      "Organic Growth Marketing",
+    ],
+    companyOverview:
+      "EasyPark is an award-winning parking and EV charging app trusted by millions across more than 20 countries. From Rome to Melbourne, the app helps drivers find, manage, and pay for parking as well as EV charging—directly from their smartphones. EasyPark empowers users to save time, avoid fines, and enjoy a hassle-free parking experience in busy cities.",
+    objective:
+      "As EasyPark expanded into newer regions, the primary objective was to enhance the app’s user experience, drive organic downloads, and build a strong digital presence that would appeal to both users and potential business partners. Additionally, the focus was on creating a scalable solution that seamlessly integrates with various city parking systems while maintaining a frictionless experience for users.",
+    approach: {
+      researchStrategy:
+        "We began by conducting in-depth research into user behavior patterns across target cities, analyzing common parking pain points, and benchmarking against competitor apps. This phase helped us map the ideal user journey—from locating parking spots to completing EV charging sessions—ensuring every touchpoint was optimized for convenience.",
+      designDevelopment: [
+        {
+          type: "Frontend",
+          description:
+            "Frontend was built using React Native, allowing efficient cross-platform deployment.",
+        },
+        {
+          type: "Backend",
+          description:
+            "Backend used Node.js with AWS for scalability and performance.",
+        },
+        {
+          type: "Payment Gateways",
+          description:
+            "Payment gateways such as Visa, Mastercard, Apple Pay, and Google Pay were integrated for smooth transactions.",
+        },
+        {
+          type: "Analytics",
+          description:
+            "For analytics, Firebase and Google Analytics were implemented to track user behavior and optimize flows.",
+        },
+        {
+          type: "UI/UX",
+          description:
+            "We focused on creating an intuitive, minimal UI that enabled users to manage their parking and charging sessions effortlessly. Smart notifications were added to alert users before their parking session expired, giving them the option to extend time remotely.",
+        },
+      ],
+      organicGrowthMarketing: [
+        {
+          type: "App Store Optimization",
+          description:
+            "To fuel app adoption without heavy reliance on ads, we optimized EasyPark’s App Store and Play Store listings with targeted keywords and engaging visuals.",
+        },
+        {
+          type: "Content Creation",
+          description:
+            "Educational content, including video tutorials, was produced to showcase real-life benefits of the app.",
+        },
+        {
+          type: "Review Campaign",
+          description:
+            "We also ran a review generation campaign, encouraging satisfied users to share their positive experiences, boosting credibility and trust.",
+        },
+        {
+          type: "Influencer and Community Engagement",
+          description:
+            "Local influencers and digital communities were engaged to amplify the brand’s reach organically.",
+        },
+      ],
+      continuousImprovement:
+        "Post-launch, we established a feedback loop to monitor user responses, identify areas for improvement, and continuously enhance the app experience and features. This ensured the app evolved based on real user needs and market dynamics.",
+    },
+    results: [
+      {
+        type: "Organic Downloads Increase",
+        description: "EasyPark saw a 35% increase in organic downloads.",
+      },
+      {
+        type: "User Engagement",
+        description:
+          "User engagement improved significantly, with 40% fewer drop-offs during parking session flows.",
+      },
+      {
+        type: "App Ratings Improvement",
+        description:
+          "App ratings improved across regions, strengthening EasyPark’s reputation as a smart, reliable, and eco-friendly parking solution.",
+      },
+      {
+        type: "Brand Awareness",
+        description:
+          "The app now enjoys a wider user base and greater brand awareness in both existing and new markets.",
       },
     ],
   },

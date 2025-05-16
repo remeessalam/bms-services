@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <div className=" bg-black px-4 sm:px-6 lg:px-8 py-16">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-8">
           {openCaseStudy.map((project, index) => {
             // const projectBanner = project.bannerImage;
             return (
@@ -27,7 +27,7 @@ const Projects = () => {
               >
                 <div className="overflow-hidden rounded-lg bg-gray-900">
                   <img
-                    src={project.bannerImage}
+                    src={project.dpImage}
                     alt={project.client}
                     className="w-full h-full aspect-square cursor-pointer object-cover transition-transform duration-300 group-hover:scale-105"
                   />
