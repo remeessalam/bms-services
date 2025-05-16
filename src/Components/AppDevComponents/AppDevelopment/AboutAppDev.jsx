@@ -37,7 +37,7 @@ const AboutWebDev = ({ caseStudyDetails }) => {
               to={caseStudyDetails.url}
               className="text-blue-500 flex items-center"
             >
-              Visit Website <ArrowUpRight size={20} />
+              Visit App <ArrowUpRight size={20} />
             </Link>{" "}
           </div>
           <div>
