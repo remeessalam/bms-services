@@ -680,6 +680,9 @@ export const openCaseStudy = [
           "Built a highly engaged community with thousands of user-generated posts and participation in in-app challenges.",
       },
     ],
+    testimonial:
+      "BoostMySites just got what we were trying to do. We didn’t want Open to be ‘just another meditation app’ — it had to feel personal, part of people’s everyday lives. Their team helped us figure out how to reach the right audience, grow naturally, and keep things real with our community. Honestly, it never felt like they were ‘selling’ — it was all about creating real value and connections. Super chill team, very easy to work with. Felt like working with friends who happen to be really good at what they do.",
+    testimonialBy: "Marketing Team, Open",
   },
   {
     id: 2,
@@ -691,12 +694,6 @@ export const openCaseStudy = [
       easyparkcaseStudyImage3,
     ],
     secondImageSet: [easyparkcaseStudyImage4, easyparkcaseStudyImage5],
-    // thirdImageSet: [
-    //   breathworkcaseStudyImage5,
-    //   breathworkcaseStudyImage6,
-    //   breathworkcaseStudyImage7,
-    //   breathworkcaseStudyImage8,
-    // ],
     client: "EasyPark",
     businessType: "Mobile App (Parking & EV Charging)",
     industry: "Mobility Services, Smart Cities",
@@ -788,6 +785,9 @@ export const openCaseStudy = [
           "The app now enjoys a wider user base and greater brand awareness in both existing and new markets.",
       },
     ],
+    testimonial:
+      "Partnering with BoostMySites has been a game-changer for us. Their expertise in digital strategy, SEO, and user experience optimization helped us increase our organic app downloads and build a strong online presence in new markets. What stood out was their ability to understand our industry needs and deliver scalable solutions that integrated seamlessly with our existing systems. Thanks to their proactive approach, we’ve been able to enhance customer engagement and position EasyPark as a preferred choice for smart parking and EV charging. Highly recommended for any business aiming for impactful digital growth.",
+    testimonialBy: "Marketing Director, EasyPark Group",
   },
   {
     id: 3,
@@ -897,6 +897,9 @@ export const openCaseStudy = [
           "Achieved top 10 ranking for 'Golf GPS' and 'Golf Scorecard' keywords on the App Store.",
       },
     ],
+    testimonial:
+      "BoostMySites totally got what we were aiming for. We didn’t want to be just another golf app — we wanted golfers to actually enjoy using 18Birdies, whether they’re working on their game or just having fun with friends. Their team helped us improve our app’s visibility, build a stronger community vibe, and keep users coming back. From smart content strategies to boosting engagement, they really nailed it. Super easy to work with and always on point with their ideas.",
+    testimonialBy: "Team 18Birdies",
   },
   {
     id: 4,
@@ -1007,6 +1010,9 @@ export const openCaseStudy = [
           "Built an active fan-driven community with high engagement on real-time reactions & polls.",
       },
     ],
+    testimonial:
+      "BoostMySites really helped us step up our game. We didn’t just want to be another scores app — we wanted to be the go-to spot for real-time sports fans. Their team helped us fine-tune our live updates, personalize content better, and get more people using the app daily. Plus, their content strategies gave a real boost to our organic downloads. Super smooth process, great communication, and they actually get what a sports audience wants. Definitely glad we partnered with them.",
+    testimonialBy: "Team TheScore",
   },
   {
     id: 5,
@@ -1108,5 +1114,8 @@ export const openCaseStudy = [
           "Established a strong brand positioning as a safe, educational, and emotionally engaging digital tool for modern parents.",
       },
     ],
+    testimonial:
+      "Working with BoostMySites was honestly a huge help for us. We had this amazing idea of personalizing bedtime stories with AI, but making sure parents could easily find and trust our app was the real challenge. Their team understood exactly how to boost our visibility, improve the user experience, and create content that really connected with our audience. The best part? They kept things simple and clear — no tech jargon, just solutions that worked. Thanks to them, more families are now discovering and loving AI Bedtime Stories.",
+    testimonialBy: "Founder, AI Bedtime Stories",
   },
 ];

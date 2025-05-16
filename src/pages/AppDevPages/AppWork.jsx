@@ -12,20 +12,17 @@ import OurOffices from "../../Components/OurOffice";
 import Footer from "../../Components/AppDevComponents/Footer";
 import Header from "../../Components/AppDevComponents/Header";
 import { useParams } from "react-router-dom";
-import {
-  appCaseStudies,
-  openCaseStudy,
-} from "../../caseStudies/appCaseStudies";
+import { openCaseStudy } from "../../caseStudies/appCaseStudies";
 const AppWork = () => {
   const { id } = useParams();
 
-  const { appcasestudy } = appCaseStudies[1];
+  // const { appcasestudy } = appCaseStudies[1];
   // const heroSection = appcasestudy[0];
   // const titleSection = appcasestudy[1];
   // const { aboutTheProject } = appcasestudy[2];
   // const { whyChooseUs } = appcasestudy[3];
   // const { problemsFaced, solutionsOffered } = appcasestudy[4];
-  const { review } = appcasestudy[5];
+  // const { review } = appcasestudy[5];
   // const { developmentProcess } = appcasestudy[6];
   // const { visualouputimages } = appcasestudy[7];
 
@@ -44,7 +41,7 @@ const AppWork = () => {
         // solutionsOffered={solutionsOffered}
         caseStudyDetails={caseStudyDetails}
       />
-      <Testimonial review={review} caseStudyDetails={caseStudyDetails} />
+      <Testimonial caseStudyDetails={caseStudyDetails} />
       <DevelopmentProcess
         // developmentProcess={developmentProcess}
         caseStudyDetails={caseStudyDetails}
