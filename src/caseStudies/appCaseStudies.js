@@ -28,6 +28,7 @@ import case1visual14 from "../assets/appdevelopment/images/casestudies/casestudi
 import case1visual15 from "../assets/appdevelopment/images/casestudies/casestudies1/visualoutput5.png";
 import case1visual16 from "../assets/appdevelopment/images/casestudies/casestudies1/visualoutput6.png";
 
+//BREATH WORK IMAGES
 import breathworkcaseStudyBannerImage from "../assets/appdevelopment/images2/breathwork/case-study-banner-image.png";
 import breathworkcaseStudyImage1 from "../assets/appdevelopment/images2/breathwork/design-1.jpg";
 import breathworkcaseStudyImage2 from "../assets/appdevelopment/images2/breathwork/design-2.jpg";
@@ -38,6 +39,7 @@ import breathworkcaseStudyImage6 from "../assets/appdevelopment/images2/breathwo
 import breathworkcaseStudyImage7 from "../assets/appdevelopment/images2/breathwork/design-7.jpg";
 import breathworkcaseStudyImage8 from "../assets/appdevelopment/images2/breathwork/design-8.jpg";
 
+//EASY PARK IMAGE
 import easyparkcaseStudyBannerImage from "../assets/appdevelopment/images2/easypark/easypark-case-study-banner-image.jpg";
 import easyparkdisplayImage from "../assets/appdevelopment/images2/easypark/dp.png";
 import easyparkcaseStudyImage1 from "../assets/appdevelopment/images2/easypark/design-1.jpg";
@@ -46,6 +48,7 @@ import easyparkcaseStudyImage3 from "../assets/appdevelopment/images2/easypark/d
 import easyparkcaseStudyImage4 from "../assets/appdevelopment/images2/easypark/design-4.jpg";
 import easyparkcaseStudyImage5 from "../assets/appdevelopment/images2/easypark/design-5.jpg";
 
+//18 BIRDIES IMAGES
 import birdiescaseStudyBannerImage from "../assets/appdevelopment/images2/18birdies/18birdies-case-study-banner-image.jpg";
 import birdiesdisplayImage from "../assets/appdevelopment/images2/18birdies/dp.png";
 import birdiescaseStudyImage1 from "../assets/appdevelopment/images2/18birdies/design-1.jpg";
@@ -56,6 +59,24 @@ import birdiescaseStudyImage5 from "../assets/appdevelopment/images2/18birdies/d
 // import easyparkcaseStudyImage6 from "../assets/appdevelopment/images2/easypark/design-6.jpg";
 // import easyparkcaseStudyImage7 from "../assets/appdevelopment/images2/easypark/design-7.jpg";
 // import easyparkcaseStudyImage8 from "../assets/appdevelopment/images2/easypark/design-8.jpg";
+
+// THE SCORE IMAGES
+import theScoreStudyBannerImage from "../assets/appdevelopment/images2/score/score-case-study-banner-image.jpg";
+import theScoredisplayImage from "../assets/appdevelopment/images2/score/dp.jpg";
+import theScoreStudyImage1 from "../assets/appdevelopment/images2/score/design-1.jpg";
+import theScoreStudyImage2 from "../assets/appdevelopment/images2/score/design-2.jpg";
+import theScoreStudyImage3 from "../assets/appdevelopment/images2/score/design-3.jpg";
+import theScoreStudyImage4 from "../assets/appdevelopment/images2/score/design-4.jpg";
+import theScoreStudyImage5 from "../assets/appdevelopment/images2/score/design-5.jpg";
+
+// THE AI BET TIME STORIES
+import aibedtimestoriesBannerImage from "../assets/appdevelopment/images2/aibedtimestories/aibedtimestories-case-study-banner-image.jpg";
+import aibedtimestoriesdisplayImage from "../assets/appdevelopment/images2/aibedtimestories/dp.jpg";
+import aibedtimestoriesImage1 from "../assets/appdevelopment/images2/aibedtimestories/design-1.jpg";
+import aibedtimestoriesImage2 from "../assets/appdevelopment/images2/aibedtimestories/design-2.jpg";
+import aibedtimestoriesImage3 from "../assets/appdevelopment/images2/aibedtimestories/design-3.jpg";
+import aibedtimestoriesImage4 from "../assets/appdevelopment/images2/aibedtimestories/design-4.jpg";
+import aibedtimestoriesImage5 from "../assets/appdevelopment/images2/aibedtimestories/design-5.jpg";
 
 export const appCaseStudies = [
   {
@@ -874,6 +895,217 @@ export const openCaseStudy = [
         type: "App Store Ranking",
         description:
           "Achieved top 10 ranking for 'Golf GPS' and 'Golf Scorecard' keywords on the App Store.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    dpImage: theScoredisplayImage,
+    bannerImage: theScoreStudyBannerImage,
+    firstImageSet: [
+      theScoreStudyImage1,
+      theScoreStudyImage2,
+      theScoreStudyImage3,
+    ],
+    secondImageSet: [theScoreStudyImage4, theScoreStudyImage5],
+    client: "theScore – Sports News & Scores",
+    businessType: "Mobile App (Sports Media & News)",
+    industry: "Sports, Media, Entertainment",
+    url: "https://apps.apple.com/in/app/thescore/id282614216",
+    servicesProvided: [
+      "App Revamp",
+      "Real-time Data Optimization",
+      "App Store Optimization",
+      "Community Engagement Campaigns",
+      "Push Notification Strategy",
+    ],
+    companyOverview:
+      "theScore is a leading sports media app that delivers real-time scores, news, stats, and live updates across major sports leagues like the NFL, NBA, NHL, MLB, EPL, and more. Known for its lightning-fast updates and personalized content feed, theScore has become a go-to destination for sports enthusiasts seeking reliable and comprehensive coverage on their mobile devices.",
+    objective:
+      "theScore aimed to reinforce its position as a real-time sports companion, not just a scores app. The focus was on enhancing live update speed and accuracy, personalizing content for different user interests, increasing organic app installs through content-driven strategies, and boosting daily active users (DAUs) with smart notifications and community interaction.",
+    approach: {
+      researchStrategy:
+        "We analyzed sports fan behavior, especially during live events, fantasy leagues, and breaking news scenarios. The insight: Fans demand instant, personalized, and interactive content that feels like being part of a live sports community. We repositioned theScore as a 'Real-Time Sports Command Center' — combining scores, news, stats, and social reactions in one streamlined experience.",
+      designDevelopment: [
+        {
+          type: "Frontend",
+          description:
+            "Swift (iOS native) for smooth UI transitions and clutter-free design for multi-sport coverage.",
+        },
+        {
+          type: "Backend",
+          description:
+            "Node.js & GraphQL to manage massive volumes of live data and push updates in real-time.",
+        },
+        {
+          type: "Data Streaming",
+          description:
+            "Optimized with CDN layers to ensure rapid content delivery even during peak sports events.",
+        },
+        {
+          type: "Personalized Feed",
+          description:
+            "Machine Learning algorithms to curate a user’s feed based on favorite teams, leagues, and interests.",
+        },
+        {
+          type: "Interactive Widgets",
+          description:
+            "Developed iOS home screen widgets for quick score checks and live match updates.",
+        },
+      ],
+      organicGrowthMarketing: [
+        {
+          type: "App Store Optimization",
+          description:
+            "Targeted keywords like 'live sports scores,' 'sports news,' 'match updates,' to improve visibility.",
+        },
+        {
+          type: "Influencer Collaborations",
+          description:
+            "Partnered with sports podcasters and content creators to promote app features during live events and fantasy sports seasons.",
+        },
+        {
+          type: "Community-Driven Content",
+          description:
+            "Introduced features like 'Fan Reactions' where users could share memes, comments, and polls during live games.",
+        },
+        {
+          type: "Social Media Integration",
+          description:
+            "Enabled seamless sharing of live scores and news snippets across platforms to drive organic installs.",
+        },
+      ],
+      pushNotificationStrategy:
+        "Revamped push notification strategy with AI-personalized alerts, including real-time score changes, breaking news for favorite teams, fantasy sports insights, and interactive polls during matches.",
+      continuousOptimization:
+        "Continuously monitored user feedback to refine content personalization algorithms, enhance live data accuracy, and introduce new interactive features like live match polls and fantasy sports insights.",
+    },
+    results: [
+      {
+        type: "Organic App Installs",
+        description:
+          "Boosted organic app installs by 50% in 4 months, leveraging ASO & fan engagement campaigns.",
+      },
+      {
+        type: "Daily Active Users",
+        description:
+          "Increased daily active users (DAU) by 40%, especially during live match windows.",
+      },
+      {
+        type: "User Session Duration",
+        description:
+          "Enhanced user session duration by 33% with personalized feeds and interactive widgets.",
+      },
+      {
+        type: "App Store Ranking",
+        description:
+          "Ranked consistently in the top search results for 'sports news' and 'live scores' on the App Store.",
+      },
+      {
+        type: "Community Engagement",
+        description:
+          "Built an active fan-driven community with high engagement on real-time reactions & polls.",
+      },
+    ],
+  },
+  {
+    id: 5,
+    dpImage: aibedtimestoriesdisplayImage,
+    bannerImage: aibedtimestoriesBannerImage,
+    firstImageSet: [
+      aibedtimestoriesImage1,
+      aibedtimestoriesImage2,
+      aibedtimestoriesImage3,
+    ],
+    secondImageSet: [aibedtimestoriesImage4, aibedtimestoriesImage5],
+    client: "AI Bedtime Stories",
+    businessType: "Mobile App (Kids & Family)",
+    industry: "EdTech, Parenting Apps",
+    url: "https://apps.apple.com/in/app/ai-bedtime-stories-for-kids/id6471338870",
+    servicesProvided: [
+      "App Design & Development",
+      "User Journey Optimization",
+      "Organic Growth Marketing",
+    ],
+    companyOverview:
+      "AI Bedtime Stories is an innovative mobile application designed to make bedtime more engaging, interactive, and personalized for children. Using advanced AI storytelling technology, the app creates custom bedtime stories featuring the child’s name, interests, and favorite characters, offering a fresh and imaginative experience every night. Available on iOS, the app caters to parents seeking meaningful digital bonding moments with their kids.",
+    objective:
+      "The key goal was to create a user-friendly, emotionally appealing app that seamlessly blends AI-driven storytelling with a simple and safe user experience. In addition, the app needed to build organic visibility in the App Store, ensuring parents discover it during their search for educational and entertaining bedtime solutions—without relying heavily on paid advertising.",
+    approach: {
+      researchStrategy:
+        "We started by understanding the psychology of bedtime routines, focusing on parental expectations and children's engagement patterns with storytelling apps. Competitor analysis revealed a gap in personalization and interactivity, which became the core of our user journey design.",
+      designDevelopment: [
+        {
+          type: "Frontend",
+          description:
+            "Swift (iOS native) for smooth animations and intuitive UI.",
+        },
+        {
+          type: "Backend",
+          description:
+            "Python with OpenAI API integration for story generation.",
+        },
+        {
+          type: "Cloud & Hosting",
+          description:
+            "AWS for seamless scalability and secure data management.",
+        },
+        {
+          type: "Payment & Subscriptions",
+          description:
+            "Apple In-App Purchase for unlocking premium stories and personalization features.",
+        },
+        {
+          type: "Analytics & Tracking",
+          description:
+            "Mixpanel and Firebase to monitor user retention, session times, and feature usage.",
+        },
+      ],
+      organicGrowthMarketing: [
+        {
+          type: "App Store Optimization",
+          description:
+            "Optimized App Store listing with keywords like 'bedtime stories,' 'AI stories,' and 'personalized kids stories.'",
+        },
+        {
+          type: "Content Marketing",
+          description:
+            "Developed a content marketing campaign featuring parenting blogs, bedtime tips, and social media reels to highlight the app’s value in creating memorable bedtime routines.",
+        },
+        {
+          type: "Influencer Collaborations",
+          description:
+            "Partnered with parenting bloggers and family-focused influencers to showcase real-life bedtime experiences with the app.",
+        },
+        {
+          type: "Review Generation",
+          description:
+            "Encouraged user reviews and ratings to enhance credibility and drive organic installs.",
+        },
+      ],
+      continuousOptimization:
+        "Implemented a continuous feedback loop to gather user insights through in-app surveys and monitoring retention rates. Updates focused on story variety, faster loading times, and more voice options for narrations.",
+    },
+    results: [
+      {
+        type: "Organic Downloads",
+        description:
+          "Achieved a 45% boost in organic downloads within 3 months of launch.",
+      },
+      {
+        type: "User Engagement",
+        description:
+          "Increased average session time by 30%, indicating higher engagement and repeat usage.",
+      },
+      {
+        type: "App Store Rating",
+        description:
+          "Achieved a high App Store rating, with parents appreciating the personalization and safety features.",
+      },
+      {
+        type: "Brand Positioning",
+        description:
+          "Established a strong brand positioning as a safe, educational, and emotionally engaging digital tool for modern parents.",
       },
     ],
   },
