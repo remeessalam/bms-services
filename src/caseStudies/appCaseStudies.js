@@ -78,6 +78,24 @@ import aibedtimestoriesImage3 from "../assets/appdevelopment/images2/aibedtimest
 import aibedtimestoriesImage4 from "../assets/appdevelopment/images2/aibedtimestories/design-4.jpg";
 import aibedtimestoriesImage5 from "../assets/appdevelopment/images2/aibedtimestories/design-5.jpg";
 
+// THE AI BET TIME STORIES
+import rizzCaseStudyBannerImage from "../assets/appdevelopment/images2/rizz/rizzCaseStudyBannerImage-case-study-banner-image.png";
+import rizzCaseStudydisplayImage from "../assets/appdevelopment/images2/rizz/dp.png";
+import rizzCaseStudyImage1 from "../assets/appdevelopment/images2/rizz/design-1.png";
+import rizzCaseStudyImage2 from "../assets/appdevelopment/images2/rizz/design-2.png";
+import rizzCaseStudyImage3 from "../assets/appdevelopment/images2/rizz/design-3.png";
+import rizzCaseStudyImage4 from "../assets/appdevelopment/images2/rizz/design-4.png";
+import rizzCaseStudyImage5 from "../assets/appdevelopment/images2/rizz/design-5.png";
+
+// THE AI BET TIME STORIES
+import epsonCaseStudyBannerImage from "../assets/appdevelopment/images2/epson/epsonCaseStudyBannerImage-case-study-banner-image.png";
+import epsonCaseStudydisplayImage from "../assets/appdevelopment/images2/epson/dp.png";
+import epsonCaseStudyImage1 from "../assets/appdevelopment/images2/epson/design-1.png";
+import epsonCaseStudyImage2 from "../assets/appdevelopment/images2/epson/design-2.png";
+import epsonCaseStudyImage3 from "../assets/appdevelopment/images2/epson/design-3.png";
+import epsonCaseStudyImage4 from "../assets/appdevelopment/images2/epson/design-4.png";
+import epsonCaseStudyImage5 from "../assets/appdevelopment/images2/epson/design-5.png";
+
 export const appCaseStudies = [
   {
     appcasestudy: [
@@ -1117,5 +1135,231 @@ export const openCaseStudy = [
     testimonial:
       "Working with BoostMySites was honestly a huge help for us. We had this amazing idea of personalizing bedtime stories with AI, but making sure parents could easily find and trust our app was the real challenge. Their team understood exactly how to boost our visibility, improve the user experience, and create content that really connected with our audience. The best part? They kept things simple and clear — no tech jargon, just solutions that worked. Thanks to them, more families are now discovering and loving AI Bedtime Stories.",
     testimonialBy: "Founder, AI Bedtime Stories",
+  },
+  {
+    id: 6,
+    dpImage: rizzCaseStudydisplayImage,
+    bannerImage: rizzCaseStudyBannerImage,
+    firstImageSet: [
+      rizzCaseStudyImage1,
+      rizzCaseStudyImage2,
+      rizzCaseStudyImage3,
+    ],
+    secondImageSet: [rizzCaseStudyImage4, rizzCaseStudyImage5],
+
+    client: "RIZZ – AI Wingman",
+    businessType: "Mobile App (AI Communication Assistant)",
+    industry: "Social, AI, Lifestyle",
+    url: "Rizz on App Store",
+    servicesProvided: [
+      "UX Revamp",
+      "AI Personalization",
+      "App Store Optimization",
+      "Viral Growth Campaigns",
+      "Push Notification Strategy",
+    ],
+    companyOverview:
+      'Rizz is an AI-powered conversation assistant designed to help users craft witty, engaging, and personalized messages for dating apps, social platforms, and casual texting. Acting as a "wingman in your pocket," Rizz uses advanced AI to suggest creative responses, ice-breakers, and flirty comebacks, giving users an edge in their conversations and boosting confidence.',
+    objective:
+      "Rizz wanted to evolve from a “pick-up line generator” to a personal AI communication coach. The goal was to:\nPosition Rizz as a smart, everyday texting assistant\n\nDrive organic installs through viral content strategies\n\nIncrease user retention by personalizing AI suggestions\n\nBoost in-app engagement during peak social interaction hours",
+    approach: {
+      researchStrategy:
+        "We analyzed how Gen Z and Millennials interact on dating apps and social media.\n Key insight: Users seek authentic, fun, and clever responses but often struggle with what to say next.\n We repositioned Rizz as a “Personal AI Wingman” — more than just lines, it’s about helping users be their best conversational self.",
+      designDevelopment: [
+        {
+          type: "Frontend",
+          description:
+            "Flutter for cross-platform consistency, with sleek, swipe-based UI for quick access to response types (funny, flirty, smart).",
+        },
+        {
+          type: "Backend",
+          description:
+            "Python (FastAPI) with OpenAI integrations for real-time prompt generation and context understanding.",
+        },
+        {
+          type: "AI Personalization",
+          description:
+            "Trained models to adapt suggestions based on user’s conversation style, tone, and platform (dating, friends, work).",
+        },
+        {
+          type: "Interactive Modes",
+          description:
+            'Introduced "Rizz Boost" for live conversation assistance and “Tone Adjuster” to fine-tune responses.',
+        },
+      ],
+      organicGrowthMarketing: [
+        {
+          type: "App Store Optimization (ASO)",
+          description:
+            "Focused on keywords like “AI wingman,” “chat GPT for dating,” “conversation starter app.”",
+        },
+        {
+          type: "Viral TikTok & Reels Campaigns",
+          description:
+            "Showcased funny before-after conversations, meme-style content around awkward texting moments, driving viral shares.",
+        },
+        {
+          type: "Influencer Collaborations",
+          description:
+            "Partnered with dating coaches, meme pages, and lifestyle influencers to demonstrate real-time usage of Rizz.",
+        },
+        {
+          type: "User-Generated Content",
+          description:
+            "Launched “Rizz Challenges” where users shared their best AI-crafted replies.",
+        },
+        {
+          type: "Community Building",
+          description:
+            "Created Discord channels for users to exchange tips, feedback, and showcase their funniest Rizz moments.",
+        },
+      ],
+      pushNotificationStrategy:
+        "Redesigned notifications to be timely and witty:\nConversation ice-breakers for popular apps like Tinder & Bumble\n\nLive suggestions when a user is actively texting\n\nDaily “Rizz Tips” for improving texting game\n\nFun challenges and meme polls to boost app engagement",
+    },
+    results: [
+      {
+        type: "Increased organic installs",
+        description:
+          "65% increase in 3 months, leveraging viral campaigns & ASO",
+      },
+      {
+        type: "Boosted daily active users (DAU)",
+        description: "50% increase, especially during evenings & weekends",
+      },
+      {
+        type: "Enhanced average session duration",
+        description:
+          "40% increase, thanks to interactive modes and personalized suggestions",
+      },
+      {
+        type: "ASO Positioning",
+        description:
+          "Consistently ranked in top search results for “AI wingman” & “chat assistant”",
+      },
+      {
+        type: "Community Engagement",
+        description:
+          "Built a highly engaged community across TikTok & Discord, fueling user-generated content and organic referrals",
+      },
+    ],
+    testimonial:
+      "BoostMySites just nailed the vibe we were going for. Rizz isn’t just about giving people lines — it’s about making them feel confident and authentic. Their team helped us connect with the right audience, go viral naturally, and keep the fun alive. Felt less like an agency, more like creative partners who get it.",
+    testimonialBy: "Marketing Team, Rizz",
+  },
+  {
+    id: 7,
+    dpImage: epsonCaseStudydisplayImage,
+    bannerImage: epsonCaseStudyBannerImage,
+    firstImageSet: [
+      epsonCaseStudyImage1,
+      epsonCaseStudyImage2,
+      epsonCaseStudyImage3,
+    ],
+    secondImageSet: [epsonCaseStudyImage4, epsonCaseStudyImage5],
+    client: "Epson – Label Editor Mobile",
+    businessType: "Mobile App (Productivity & Printing Tools)",
+    industry: "Office Solutions, Hardware, Productivity",
+    url: "https://apps.apple.com/in/app/epson-label-editor-mobile/id[APP_ID_HERE]",
+    servicesProvided: [
+      "App Experience Revamp",
+      "Workflow Simplification",
+      "App Store Optimization",
+      "B2B Outreach Campaigns",
+      "Push Notification Strategy",
+    ],
+    companyOverview:
+      "Epson Label Editor Mobile is a productivity app designed to make label creation and printing effortless for businesses, professionals, and home users. Compatible with Epson’s LabelWorks printers, the app allows users to design custom labels with text, symbols, QR codes, and more — all from their mobile devices.",
+    objective:
+      "Epson aimed to reposition the app from a basic utility to a smart labeling companion for both professional and personal use. The focus was on:\nSimplifying the label creation workflow\n\nEnhancing compatibility & ease of use with LabelWorks printers\n\nIncreasing app installs organically through content-driven awareness\n\nDriving repeat usage among businesses & home users",
+    approach: {
+      researchStrategy:
+        "We studied how small businesses, office admins, retailers, and even home organizers use label printers.\n Key insight: Users want quick, hassle-free label creation without complex setups.\n We repositioned the app as a “Pocket Label Studio” — making professional-grade labeling as easy as drag, type, and print.",
+      designDevelopment: [
+        {
+          type: "Frontend",
+          description:
+            "Native Swift for iOS ensuring smooth drag & drop UI, intuitive navigation, and real-time print preview.",
+        },
+        {
+          type: "Backend",
+          description:
+            "Optimized with REST APIs for seamless printer connectivity and real-time template syncing.",
+        },
+        {
+          type: "Smart Templates",
+          description:
+            "Introduced pre-designed templates for offices, retail stores, events, and home organization.",
+        },
+        {
+          type: "QR Code & Barcode Generator",
+          description: "Built-in tools for business labeling needs.",
+        },
+        {
+          type: "Offline Mode",
+          description:
+            "Enabled label design even without internet, syncing once reconnected.",
+        },
+      ],
+      organicGrowthMarketing: [
+        {
+          type: "ASO",
+          description:
+            "Focused on keywords like “label printer app,” “QR code label maker,” “Epson mobile printing.”",
+        },
+        {
+          type: "Educational Content",
+          description:
+            "Created how-to videos & infographics showing use-cases in offices, retail, and homes.",
+        },
+        {
+          type: "Partnership with Retail & Office Supply Stores",
+          description:
+            "Demos of the app in conjunction with LabelWorks printers.",
+        },
+        {
+          type: "Influencer Collaborations",
+          description:
+            "Partnered with small business owners & organization influencers to showcase real-life applications.",
+        },
+        {
+          type: "Cross-Promotion",
+          description:
+            "Integrated app promotion on Epson’s official product packaging and website.",
+        },
+      ],
+      pushNotificationStrategy:
+        "Focused on functional, helpful reminders:\nTemplate suggestions for upcoming seasons (e.g., “Holiday Labels Made Easy”)\n\nPrinter connection tips & troubleshooting\n\nNew feature announcements & app updates\n\nRe-engagement nudges like “Need to organize your workspace? Create labels in minutes!”",
+    },
+    results: [
+      {
+        type: "Organic Installs Increase",
+        description:
+          "Achieved 45% increase in organic installs within 3 months through ASO & educational outreach",
+      },
+      {
+        type: "User Retention Improvement",
+        description:
+          "Improved user retention by 38% with simplified workflows & smart templates",
+      },
+      {
+        type: "Print Task Completion",
+        description:
+          "Boosted print task completion rate by 50% after UI/UX improvements",
+      },
+      {
+        type: "ASO Positioning",
+        description:
+          "Ranked in top search results for “label maker app” & “Epson printer app”",
+      },
+      {
+        type: "B2B Engagement",
+        description:
+          "Strengthened B2B engagement, with increased app usage among small businesses & retail chains",
+      },
+    ],
+    testimonial:
+      "BoostMySites helped us turn a technical utility into a user-friendly experience. They understood that for most users, printing labels isn’t fun — but it can be easy and satisfying with the right approach. Their team made sure the app feels intuitive, helpful, and aligned with real-world needs. Professional, yet so approachable.",
+    testimonialBy: "Product Team, Epson LabelWorks",
   },
 ];
