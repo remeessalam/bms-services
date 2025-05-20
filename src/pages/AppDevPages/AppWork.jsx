@@ -27,7 +27,6 @@ const AppWork = () => {
   // const { visualouputimages } = appcasestudy[7];
 
   const caseStudyDetails = openCaseStudy[id - 1];
-  console.log(openCaseStudy, id, "asdfasdfasdfasdf");
   return (
     <div>
       <Header />
