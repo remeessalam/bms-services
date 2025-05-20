@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import Loader from "./Components/Loader";
+import AppDevelopment from "./pages/AppDevelopment/AppDevelopment";
 const AppLayout = lazy(() => import("./Layout/AppLayout"));
 const HomePage = lazy(() => import("./pages/WebsiteDevPages/HomePage"));
 const CaseStudy = lazy(() => import("./pages/WebsiteDevPages/CaseStudy"));
@@ -27,6 +28,10 @@ const AppRouter = createBrowserRouter([
       // routes for web development service website
       {
         path: "/",
+        element: <Navigate to="/web-development" />,
+      },
+      {
+        path: "/web-development",
         element: <HomePage />,
       },
       {
@@ -41,7 +46,7 @@ const AppRouter = createBrowserRouter([
       // routes for app development service website
       {
         path: "/app-development",
-        element: <AppDevHome />,
+        element: <AppDevelopment />,
       },
       {
         path: "/app-development/case-study",
