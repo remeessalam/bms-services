@@ -7,6 +7,7 @@ import FAQ from "./components/FAQ";
 import OurOffices from "../../Components/OurOffice";
 import ContactForm from "../../Components/ContactForm";
 import Footer from "../../Components/Footer";
+import Banner from "./components/Banner";
 
 const AppDevelopment = () => {
   const gradientRef1 = useRef(null);
@@ -55,7 +56,8 @@ const AppDevelopment = () => {
   return (
     <div className="bg-black text-white">
       <Header />
-      <div className="pt-[7rem]"></div>
+
+      <Banner />
       <section data-aos="fade-up" className="bg-[#0E0E0E]">
         <div className="wrapper overflow-hidden py-16 min-h-[70vh] flex items-center text-center relative">
           <div
