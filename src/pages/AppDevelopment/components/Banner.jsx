@@ -4,6 +4,7 @@ import aboutimage from "../../../assets/appdevelopment/images/about-app.png";
 import servicesbackgroundimage from "../../../assets/appdevelopment/images/servicesbackgroundimage.jpg";
 import servicecenterimage from "../../../assets/appdevelopment/images/service-center-image.png";
 import customersupporticon from "../../../assets/appdevelopment/images/customer-support-icon.png";
+
 const Banner = () => {
   const services = [
     {
