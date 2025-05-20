@@ -9,7 +9,7 @@ const WebDevelopment = lazy(() =>
   import("./pages/WebsiteDevPages/WebDevelopment")
 );
 
-const AppDevHome = lazy(() => import("./pages/AppDevPages/AppDevHome"));
+// const AppDevHome = lazy(() => import("./pages/AppDevPages/AppDevHome"));
 const AppDevCaseStudy = lazy(() =>
   import("./pages/AppDevPages/AppDevCaseStudy")
 );
