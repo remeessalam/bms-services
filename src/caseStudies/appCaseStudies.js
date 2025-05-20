@@ -1,4 +1,3 @@
-
 //BREATH WORK IMAGES
 import breathworkcaseStudyBannerImage from "../assets/appdevelopment/images2/breathwork/case-study-banner-image.png";
 import breathworkcaseStudyImage1 from "../assets/appdevelopment/images2/breathwork/design-1.jpg";
@@ -66,6 +65,15 @@ import epsonCaseStudyImage2 from "../assets/appdevelopment/images2/epson/design-
 import epsonCaseStudyImage3 from "../assets/appdevelopment/images2/epson/design-3.png";
 import epsonCaseStudyImage4 from "../assets/appdevelopment/images2/epson/design-4.png";
 import epsonCaseStudyImage5 from "../assets/appdevelopment/images2/epson/design-5.png";
+
+// THE AI BET TIME STORIES
+import vippsCaseStudyBannerImage from "../assets/appdevelopment/images2/vipps/vipps-case-study-banner-image.png";
+import vippsDisplayImage from "../assets/appdevelopment/images2/vipps/dp.png";
+import vippsCaseStudyImage1 from "../assets/appdevelopment/images2/vipps/design-1.png";
+import vippsCaseStudyImage2 from "../assets/appdevelopment/images2/vipps/design-2.png";
+import vippsCaseStudyImage3 from "../assets/appdevelopment/images2/vipps/design-3.png";
+import vippsCaseStudyImage4 from "../assets/appdevelopment/images2/vipps/design-4.png";
+import vippsCaseStudyImage5 from "../assets/appdevelopment/images2/vipps/design-5.png";
 
 export const openCaseStudy = [
   {
@@ -838,5 +846,92 @@ export const openCaseStudy = [
     testimonial:
       "BoostMySites helped us turn a technical utility into a user-friendly experience. They understood that for most users, printing labels isn’t fun — but it can be easy and satisfying with the right approach. Their team made sure the app feels intuitive, helpful, and aligned with real-world needs. Professional, yet so approachable.",
     testimonialBy: "Product Team, Epson LabelWorks",
+  },
+  {
+    id: 8,
+    dpImage: vippsDisplayImage,
+    bannerImage: vippsCaseStudyBannerImage,
+    firstImageSet: [
+      vippsCaseStudyImage1,
+      vippsCaseStudyImage2,
+      vippsCaseStudyImage3,
+    ],
+    secondImageSet: [vippsCaseStudyImage4, vippsCaseStudyImage5],
+    client: "Vipps MobilePay AS",
+    businessType: "Mobile Payment Application",
+    industry: "Fintech, Digital Payments",
+    url: "https://apps.apple.com/no/app/vipps/id984812390",
+    applicationUrl: "https://apps.apple.com/no/app/vipps/id984812390",
+    servicesProvided: [
+      "User Experience Optimization",
+      "Feature Expansion",
+      "Marketing Campaigns",
+      "App Store Optimization",
+      "Strategic Partnerships",
+    ],
+    companyOverview:
+      "Vipps is Norway’s most popular mobile payment app, enabling users to send and receive money instantly using just a phone number. Launched in 2015 by DNB, Vipps has become synonymous with mobile payments in Norway, with over 3 million users—approximately 75% of the eligible population. The app offers a range of services, including peer-to-peer transfers, bill payments, online and in-store purchases, and more.",
+    objective:
+      "Vipps aimed to:\n\nEnhance user engagement and app adoption across the Nordic region.\n\nIntroduce new features to meet evolving user needs.\n\nIncrease brand awareness and market penetration through targeted marketing campaigns.\n\nOptimize app performance and user experience.",
+    approach: {
+      researchStrategy:
+        "Analyzed user behavior to identify opportunities for feature enhancements.\n\nDeveloped a unified strategy post-merger with MobilePay to streamline services across Norway, Denmark, and Finland.",
+      designDevelopment: [
+        {
+          type: "User Interface",
+          description:
+            "Implemented a user-friendly interface supporting multiple languages, including English, Norwegian, Swedish, Danish, and Finnish.",
+        },
+        {
+          type: "Feature Integration",
+          description:
+            "Integrated features such as digital gift scheduling, subscription management, and tap-to-pay functionality.",
+        },
+        {
+          type: "Cross-Platform Support",
+          description:
+            "Ensured compatibility with iOS and Android platforms, including support for Apple Watch.",
+        },
+      ],
+      organicGrowthMarketing: [
+        {
+          type: "TikTok Campaign",
+          description:
+            "Launched a 4-week TikTok advertising campaign featuring relatable scenarios and native content elements, resulting in a 155% increase in new users and a 110% boost in product revenue.",
+        },
+        {
+          type: "App Store Optimization",
+          description:
+            "Optimized App Store presence with targeted keywords and engaging visuals to improve visibility and downloads.",
+        },
+      ],
+      continuousImprovement:
+        "Collaborated with banks and financial institutions to expand user base and service offerings.\n\nFormed alliances with merchants and e-commerce platforms to facilitate seamless transactions.",
+    },
+    results: [
+      {
+        type: "User Acquisition Growth",
+        description:
+          "Achieved a 155% increase in new users and a 110% boost in product revenue following the TikTok campaign.",
+      },
+      {
+        type: "User Base Expansion",
+        description:
+          "Expanded user base to over 3 million in Norway, capturing approximately 75% of the eligible population.",
+      },
+      {
+        type: "Improved User Satisfaction",
+        description:
+          "Enhanced app functionality and user experience, leading to increased user satisfaction and retention.",
+      },
+      {
+        type: "Regional Brand Strength",
+        description:
+          "Strengthened brand presence and recognition across the Nordic region.",
+      },
+    ],
+    testimonial:
+      "Partnering with BoostMySites played a key role in taking Vipps to the next level. While we already had a strong presence in the Norwegian market, we needed to sharpen the user experience and expand features without complicating what our users loved most — simplicity. Their team brought in fresh ideas, streamlined our UX, and helped us launch targeted marketing campaigns that resonated with both users and partners. They also optimized our app store visibility, which made a noticeable impact. What stood out was their ability to move fast while staying strategic. BoostMySites truly understood the fintech space and helped us stay ahead.",
+    testimonialBy: "Product Lead, Vipps MobilePay AS",
   },
 ];
