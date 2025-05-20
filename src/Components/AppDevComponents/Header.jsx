@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Link as Scroll } from "react-scroll";
 import { logo } from "../../pages/WebsiteDevPages/constant";
 
 const Header = () => {
@@ -22,7 +23,7 @@ const Header = () => {
               <img
                 src={logo}
                 alt="logo"
-                className="h-[4rem] md:h-[5rem] object-contain"
+                className="w-[6rem] sm:w-[8rem] object-contain"
               />
             </Link>
           </div>
@@ -42,12 +43,16 @@ const Header = () => {
 
           {/* Contact Button */}
           <div className="hidden lg:block">
-            <Link
-              to={"#"}
-              className="inline-block rounded-full bg-[#ff9934] px-6 py-2 text-sm font-medium text-black hover:bg-[#f08a20] transition-colors"
+            <Scroll
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              spy={true}
+              className="inline-block rounded-full bg-[#ff9934] px-6 py-2 text-sm font-medium text-black hover:bg-[#f08a20] transition-colors cursor-pointer"
             >
               Contact us
-            </Link>
+            </Scroll>
           </div>
 
           {/* Mobile menu button */}
@@ -80,12 +85,17 @@ const Header = () => {
                   {link.name}
                 </Link>
               ))}
-              <Link
-                to={"#"}
-                className="block rounded-full bg-[#ff9934] px-6 py-2 text-center text-sm font-medium text-black hover:bg-[#f08a20] transition-colors mt-4"
+              <Scroll
+                to="contact"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                spy={true}
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                className="block rounded-md px-3 py-2 text-base font-medium hover:bg-black/20"
               >
                 Contact us
-              </Link>
+              </Scroll>
             </div>
           </div>
         )}

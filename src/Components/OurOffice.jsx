@@ -5,7 +5,7 @@ const OurOffices = () => {
     <section className="bg-black text-white padding-between">
       <div className="wrapper">
         <h2 className="section-heading" data-aos="fade-up">
-          OUR OFFICES
+          Our Offices
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

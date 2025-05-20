@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-// import bannerimg from "../../../assets/websitedevelopment/images/casestudybannerimage.png";
+
 const CaseStudyBanner = () => {
   return (
     <div className="bg-black h-screen relative overflow-hidden  ">

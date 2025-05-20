@@ -1,16 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import {
-  appCaseStudies,
-  openCaseStudy,
-} from "../../caseStudies/appCaseStudies";
-// import { projects } from "../../pages/AppDevPages/constant";
+import { openCaseStudy } from "../../caseStudies/appCaseStudies";
 
 const Projects = () => {
   const navigate = useNavigate();
   const handleClick = (id) => {
     navigate(`/app-development/work/${id}`);
   };
-  console.log(appCaseStudies, "asdfasd");
 
   return (
     <div className=" bg-black px-4 sm:px-6 lg:px-8 py-16">
@@ -38,12 +33,6 @@ const Projects = () => {
                       {project.client}
                     </h3>
                   </div>
-                  {/* <p className="desc cursor-pointer">{project.desc}</p> */}
-                  {/* <div className="flex-shrink-0 w-6 h-6 rounded-full bg-yellow-400 flex items-center justify-center">
-                  <span className="text-black text-sm font-bold">
-                    {project.number}
-                  </span>
-                </div> */}
                 </div>
               </div>
             );

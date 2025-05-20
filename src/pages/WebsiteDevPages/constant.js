@@ -5,8 +5,11 @@ import thridpartywebsite from "../../assets/websitedevelopment/images/services/t
 import performance from "../../assets/websitedevelopment/images/services/performance.jpeg";
 import seo from "../../assets/websitedevelopment/images/services/seo.jpeg";
 import maintance from "../../assets/websitedevelopment/images/services/maintance.jpeg";
-import dubai from "../../assets/websitedevelopment/images/dubaioffice.jpeg";
-import hongkong from "../../assets/websitedevelopment/images/hongkongoffice.jpeg";
+import dubai from "../../assets/dubaioffice.jpeg";
+import hongkong from "../../assets/hongkongoffice.jpeg";
+import delhi from "../../assets/delhi.webp";
+import bangkok from "../../assets/bangkok.webp";
+import bangalore from "../../assets/bangalore.webp";
 
 //projects images
 
@@ -127,17 +130,17 @@ export const offices = [
       "The Hong Kong Club Building Level 16, The Hong Kong Club Building, No. 3A Chater Road, Central, Hong Kong",
   },
   {
-    image: dubai,
+    image: bangalore,
     address:
       "5th A Cross Rd, R.K Colony, Manjunath Colony, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka, India",
   },
   {
-    image: hongkong,
+    image: bangkok,
     address:
       "Bangkok: 15-17, 20, 25-27Fl, T-One Building, 8 Soi Sukhumvit 40, Khwaeng Phra Khanong, Khlong Toei, Bangkok 10110, Thailand",
   },
   {
-    image: dubai,
+    image: delhi,
     address:
       "Office number 309, Ambadeep building- 3rd floor, Kg marg Connaught Place, Delhi 110001, India",
   },

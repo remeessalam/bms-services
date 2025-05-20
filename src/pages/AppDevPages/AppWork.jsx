@@ -2,29 +2,18 @@ import AboutAppDev from "../../Components/AppDevComponents/AppDevelopment/AboutA
 import DevelopmentProcess from "../../Components/AppDevComponents/AppDevelopment/DevelopmentProcess";
 import ProblemsAndSolutions from "../../Components/AppDevComponents/AppDevelopment/ProblemsAndSolutions";
 import Testimonial from "../../Components/AppDevComponents/AppDevelopment/Testimonials";
-// import VisualOutput from "../../Components/AppDevComponents/AppDevelopment/VisualOutput";
 import AppDevBanner from "../../Components/AppDevComponents/AppDevelopment/AppDevBanner";
-// import sectionimage from "../../assets/appdevelopment/images/websitebgimage.jpeg";
 import impactbg from "../../assets/appdevelopment/images/impactbgimg.png";
 import Projects from "../../Components/AppDevComponents/Projects";
 import ContactForm from "../../Components/ContactForm";
 import OurOffices from "../../Components/OurOffice";
-import Footer from "../../Components/AppDevComponents/Footer";
+import Footer from "../../Components/Footer";
 import Header from "../../Components/AppDevComponents/Header";
 import { useParams } from "react-router-dom";
 import { openCaseStudy } from "../../caseStudies/appCaseStudies";
+
 const AppWork = () => {
   const { id } = useParams();
-
-  // const { appcasestudy } = appCaseStudies[1];
-  // const heroSection = appcasestudy[0];
-  // const titleSection = appcasestudy[1];
-  // const { aboutTheProject } = appcasestudy[2];
-  // const { whyChooseUs } = appcasestudy[3];
-  // const { problemsFaced, solutionsOffered } = appcasestudy[4];
-  // const { review } = appcasestudy[5];
-  // const { developmentProcess } = appcasestudy[6];
-  // const { visualouputimages } = appcasestudy[7];
 
   const caseStudyDetails = openCaseStudy[id - 1];
   return (

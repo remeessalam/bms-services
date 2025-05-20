@@ -1,7 +1,7 @@
 import ContactForm from "../../Components/ContactForm";
 import OurOffices from "../../Components/OurOffice";
 import CaseStudyBanner from "../../Components/AppDevComponents/CaseStudyComponents/CaseStudyBanner";
-import Footer from "../../Components/AppDevComponents/Footer";
+import Footer from "../../Components/Footer";
 import Header from "../../Components/AppDevComponents/Header";
 import Projects from "../../Components/AppDevComponents/Projects";
 

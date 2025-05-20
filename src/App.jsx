@@ -46,6 +46,7 @@ const AppRouter = createBrowserRouter([
       // routes for app development service website
       {
         path: "/app-development",
+        // element: <AppDevHome />,
         element: <AppDevelopment />,
       },
       {

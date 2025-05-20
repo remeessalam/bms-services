@@ -4,13 +4,13 @@
 
 @layer utilities {
   .padding-between {
-    @apply py-16 md:py-24;
+    @apply py-16 md:py-16;
   }
   .wrapper {
     @apply max-w-7xl mx-auto px-4;
   }
   .section-heading {
-    @apply text-center text-4xl font-bold mb-16 md:text-5xl;
+    @apply text-center text-4xl font-semibold mb-16 md:text-5xl;
   }
   .banner-heading {
     @apply text-4xl font-bold tracking-tight sm:text-6xl md:text-7xl;
@@ -25,16 +25,15 @@
     @apply text-base  text-white/80 font-medium;
   }
   .desc {
-    @apply text-gray-600 text-lg sm:text-xl;
+    @apply text-gray-600 text-base sm:text-lg;
   }
   .primary-btn {
-    @apply inline-block rounded-full bg-yellow-300 px-8 py-4 text-base font-semibold text-black transition-transform hover:scale-105 hover:bg-yellow-400;
+    @apply inline-block rounded-full bg-primary px-8 py-4 text-base font-semibold text-black transition-transform hover:scale-105 hover:shadow-lg hover:shadow-primary/60 cursor-pointer;
   }
   .animate-spin-slow {
     animation: spin 20s linear infinite;
   }
 }
-
 
 .spinner-parent {
   display: flex;
