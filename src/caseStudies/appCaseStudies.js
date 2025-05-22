@@ -75,6 +75,24 @@ import vippsCaseStudyImage3 from "../assets/appdevelopment/images2/vipps/design-
 import vippsCaseStudyImage4 from "../assets/appdevelopment/images2/vipps/design-4.png";
 import vippsCaseStudyImage5 from "../assets/appdevelopment/images2/vipps/design-5.png";
 
+// THE RONOGY Labs
+import renogyCaseStudyBannerImage from "../assets/appdevelopment/images2/renogy/renogy-case-study-banner-image.png";
+import renogyDisplayImage from "../assets/appdevelopment/images2/renogy/dp.png";
+import renogyCaseStudyImage1 from "../assets/appdevelopment/images2/renogy/design-1.png";
+import renogyCaseStudyImage2 from "../assets/appdevelopment/images2/renogy/design-2.png";
+import renogyCaseStudyImage3 from "../assets/appdevelopment/images2/renogy/design-3.png";
+import renogyCaseStudyImage4 from "../assets/appdevelopment/images2/renogy/design-4.png";
+import renogyCaseStudyImage5 from "../assets/appdevelopment/images2/renogy/design-5.png";
+
+// // THE Focus Labs
+// import focusTreeCaseStudyBannerImage from "../assets/appdevelopment/images2/focus/focus-case-study-banner-image.png";
+// import focusTreeDisplayImage from "../assets/appdevelopment/images2/focus/dp.png";
+// import focusTreeCaseStudyImage1 from "../assets/appdevelopment/images2/focus/design-1.png";
+// import focusTreeCaseStudyImage2 from "../assets/appdevelopment/images2/focus/design-2.png";
+// import focusTreeCaseStudyImage3 from "../assets/appdevelopment/images2/focus/design-3.png";
+// import focusTreeCaseStudyImage4 from "../assets/appdevelopment/images2/focus/design-4.png";
+// import focusTreeCaseStudyImage5 from "../assets/appdevelopment/images2/focus/design-5.png";
+
 export const openCaseStudy = [
   {
     id: 1,
@@ -934,4 +952,183 @@ export const openCaseStudy = [
       "Partnering with BoostMySites played a key role in taking Vipps to the next level. While we already had a strong presence in the Norwegian market, we needed to sharpen the user experience and expand features without complicating what our users loved most — simplicity. Their team brought in fresh ideas, streamlined our UX, and helped us launch targeted marketing campaigns that resonated with both users and partners. They also optimized our app store visibility, which made a noticeable impact. What stood out was their ability to move fast while staying strategic. BoostMySites truly understood the fintech space and helped us stay ahead.",
     testimonialBy: "Product Lead, Vipps MobilePay AS",
   },
+  {
+    id: 9,
+    dpImage: renogyDisplayImage,
+    bannerImage: renogyCaseStudyBannerImage,
+    firstImageSet: [
+      renogyCaseStudyImage1,
+      renogyCaseStudyImage2,
+      renogyCaseStudyImage3,
+    ],
+    secondImageSet: [renogyCaseStudyImage4, renogyCaseStudyImage5],
+    client: "Renogy",
+    businessType: "Solar Energy Monitoring Application",
+    industry: "Renewable Energy, IoT",
+    url: "https://apps.apple.com/app/renogy/idYOUR_APP_ID",
+    applicationUrl: "https://apps.apple.com/app/renogy/idYOUR_APP_ID",
+    servicesProvided: [
+      "UX/UI Optimization",
+      "Feature Enhancement",
+      "IoT Integration Support",
+      "App Store Optimization",
+      "Performance Improvements",
+    ],
+    companyOverview:
+      "Renogy is a global leader in solar energy solutions, offering products that empower users to take control of their energy independence. The Renogy app connects users to their solar energy systems via Bluetooth or Wi-Fi, allowing real-time monitoring and control of batteries, charge controllers, and inverters—all from a mobile device.",
+    objective:
+      "Renogy aimed to:\n\nImprove app reliability and usability across solar device types.\n\nIntroduce intuitive dashboards and better energy consumption insights.\n\nBoost user adoption through app store optimization.\n\nEnhance the overall user experience for both beginners and advanced users.",
+    approach: {
+      researchStrategy:
+        "Conducted user interviews and analyzed reviews to pinpoint pain points.\n\nDefined UX goals focused on clarity, accessibility, and real-time performance.",
+      designDevelopment: [
+        {
+          type: "Dashboard Redesign",
+          description:
+            "Revamped the dashboard to offer clearer visuals of energy production, storage, and consumption.",
+        },
+        {
+          type: "Smart Features",
+          description:
+            "Added smart alerts and energy trend analytics to improve system awareness.",
+        },
+        {
+          type: "Cross-Device Compatibility",
+          description:
+            "Enhanced compatibility across devices including Android tablets and iPads.",
+        },
+        {
+          type: "Performance Optimization",
+          description:
+            "Optimized performance for low-bandwidth rural or off-grid locations.",
+        },
+      ],
+      organicGrowthMarketing: [
+        {
+          type: "App Store Optimization",
+          description:
+            "Improved App Store listing with updated screenshots, feature highlights, and targeted keywords.",
+        },
+        {
+          type: "User Onboarding",
+          description:
+            "Supported Renogy’s content team with in-app tooltips and onboarding flows to increase retention.",
+        },
+      ],
+      continuousImprovement:
+        "Collaborated with the Renogy product team to align long-term roadmap with user expectations.\n\nTested new features with segmented user groups for iterative refinement.",
+    },
+    results: [
+      {
+        type: "User Engagement",
+        description:
+          "Increased active daily users by 85% over a 3-month period.",
+      },
+      {
+        type: "App Stability",
+        description:
+          "Reduced app crashes and lag by 70%, improving trust and retention.",
+      },
+      {
+        type: "App Store Performance",
+        description:
+          "Saw a 2x improvement in App Store rating within weeks of launch.",
+      },
+      {
+        type: "Brand Impact",
+        description:
+          "Strengthened Renogy’s reputation as a smart solar management platform.",
+      },
+    ],
+    testimonial:
+      "Partnering with BoostMySites helped us unlock the full potential of the Renogy app. Their team quickly identified where users were getting stuck and brought in smart design solutions that simplified even the most technical parts of our interface. They also improved the performance and clarity of our dashboards, helping users better understand their solar systems. Thanks to their work on ASO and UX, we saw a major lift in engagement and app store ratings. BoostMySites was fast, reliable, and really understood the renewable energy space.",
+    testimonialBy: "Product Owner, Renogy",
+  },
+  // {
+  //   id: 9,
+  //   dpImage: focusTreeDisplayImage,
+  //   bannerImage: focusTreeCaseStudyBannerImage,
+  //   firstImageSet: [
+  //     focusTreeCaseStudyImage1,
+  //     focusTreeCaseStudyImage2,
+  //     focusTreeCaseStudyImage3,
+  //   ],
+  //   secondImageSet: [focusTreeCaseStudyImage4, focusTreeCaseStudyImage5],
+  //   client: "Focus Labs",
+  //   businessType: "Mobile Productivity Application",
+  //   industry: "EdTech, Productivity, Web3",
+  //   url: "https://apps.apple.com/app/focus-tree/idYOUR_APP_ID",
+  //   applicationUrl: "https://apps.apple.com/app/focus-tree/idYOUR_APP_ID",
+  //   servicesProvided: [
+  //     "User Engagement Strategy",
+  //     "Feature Development",
+  //     "Gamification Design",
+  //     "Community Building",
+  //     "App Store Optimization",
+  //   ],
+  //   companyOverview:
+  //     "Focus Tree is a mobile productivity application that leverages gamification and community engagement to help users manage screen time and enhance focus. By integrating Web3 technology, it offers a unique approach where users grow digital gardens as a reward for focused sessions. The app supports multiple languages, including English, French, Portuguese, and Spanish, and is compatible with iOS, iPadOS, macOS, and Apple Vision.",
+  //   objective:
+  //     "Focus Tree aimed to:\n\nEnhance user engagement through gamified experiences.\n\nExpand feature set to include community and social functionalities.\n\nIncrease app visibility and downloads via App Store Optimization.\n\nIntegrate Web3 elements to offer unique user rewards.",
+  //   approach: {
+  //     researchStrategy:
+  //       "Analyzed user behavior to identify opportunities for feature enhancements.\n\nDeveloped a unified strategy to integrate Web3 elements seamlessly.",
+  //     designDevelopment: [
+  //       {
+  //         type: "User Interface",
+  //         description:
+  //           "Implemented a user-friendly interface supporting multiple languages.",
+  //       },
+  //       {
+  //         type: "Feature Integration",
+  //         description:
+  //           "Introduced features like digital garden building, focus sessions, and community challenges.",
+  //       },
+  //       {
+  //         type: "Cross-Platform Support",
+  //         description:
+  //           "Ensured compatibility across various Apple devices, including Apple Watch and Apple Vision.",
+  //       },
+  //     ],
+  //     organicGrowthMarketing: [
+  //       {
+  //         type: "App Store Optimization",
+  //         description:
+  //           "Optimized App Store presence with targeted keywords and engaging visuals to improve visibility and downloads.",
+  //       },
+  //       {
+  //         type: "Community Campaigns",
+  //         description:
+  //           "Launched community-driven campaigns to boost user engagement.",
+  //       },
+  //     ],
+  //     continuousImprovement:
+  //       "Collaborated with Web3 platforms to distribute rewards in the form of $STRK tokens.\n\nFormed alliances with educational institutions to promote the app among students.",
+  //   },
+  //   results: [
+  //     {
+  //       type: "App Store Rating",
+  //       description:
+  //         "Achieved a 4.7 out of 5 rating on the App Store with 73 ratings.",
+  //     },
+  //     {
+  //       type: "User Base Expansion",
+  //       description:
+  //         "Expanded user base significantly through community-driven initiatives.",
+  //     },
+  //     {
+  //       type: "Improved User Satisfaction",
+  //       description:
+  //         "Enhanced app functionality and user experience, leading to increased user satisfaction and retention.",
+  //     },
+  //     {
+  //       type: "Market Positioning",
+  //       description:
+  //         "Strengthened brand presence and recognition across the productivity app market.",
+  //     },
+  //   ],
+  //   testimonial:
+  //     "Partnering with BoostMySites was a game changer for Focus Tree. We already had a solid user base, but needed to refine our user experience and expand features while keeping the app’s simplicity intact. The BoostMySites team brought in creative solutions, improved our UI/UX, and ran targeted campaigns that really connected with our audience. They also enhanced our App Store presence, driving more visibility and downloads. Their speed, strategic thinking, and understanding of productivity apps made all the difference.",
+  //   testimonialBy: "Product Manager, Focus Tree",
+  // },
 ];
